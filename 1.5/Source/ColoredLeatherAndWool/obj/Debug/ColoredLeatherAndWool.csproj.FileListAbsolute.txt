@@ -1,0 +1,8 @@
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ColoredLeatherAndWool\Assemblies\ColoredLeatherAndWool.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ColoredLeatherAndWool\Source\ColoredLeatherAndWool\obj\Debug\ColoredLeatherAndWool.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ColoredLeatherAndWool\Source\ColoredLeatherAndWool\obj\Debug\ColoredLeatherAndWool.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ColoredLeatherAndWool\Source\ColoredLeatherAndWool\obj\Debug\ColoredLeatherAndWool.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ColoredLeatherAndWool\1.5\Assemblies\ColoredLeatherAndWool.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ColoredLeatherAndWool\1.5\Source\ColoredLeatherAndWool\obj\Debug\ColoredLeatherAndWool.csproj.AssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ColoredLeatherAndWool\1.5\Source\ColoredLeatherAndWool\obj\Debug\ColoredLeatherAndWool.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\ColoredLeatherAndWool\1.5\Source\ColoredLeatherAndWool\obj\Debug\ColoredLeatherAndWool.dll

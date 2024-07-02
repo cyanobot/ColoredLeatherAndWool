@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="MM_LightMagicalLeather"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="MM_LightMagicalLeather"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="MM_LightMagicalLeather"]/comps</xpath>
+	<value>
+		<li>
+			<compClass>CompColorable</compClass>
+		</li>
+		<li Class="ColoredLeatherAndWool.CompProperties_TanningColor">
+			<baseColor>(130,110,100)</baseColor>
+			<weight>0.3</weight>
+		</li>
+	</value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="MM_LightMagicalLeather"]</xpath>
+	<value>
+		<colorGeneratorInTraderStock Class="ColorGenerator_Options">	
+			<options>
+			<li>
+			  <weight>1</weight>
+			  <only>(107, 96, 99)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(81, 76, 62)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(109, 87, 79)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(77, 74, 76)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(99, 84, 71)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(72, 65, 62)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(79, 60, 48)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(189, 167, 161)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(176, 149, 110)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(58, 52, 49)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(96, 113, 85)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(191, 185, 182)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(189, 178, 174)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(83, 60, 43)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(86, 117, 161)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(220, 220, 220)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(122, 74, 48)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(156, 128, 105)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(85, 79, 80)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(215, 209, 206)</only>
+			</li>
+			</options>
+		</colorGeneratorInTraderStock>
+	</value>
+</Operation>
+	
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="MM_HeavyMagicalLeather"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="MM_HeavyMagicalLeather"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="MM_HeavyMagicalLeather"]/comps</xpath>
+	<value>
+		<li>
+			<compClass>CompColorable</compClass>
+		</li>
+		<li Class="ColoredLeatherAndWool.CompProperties_TanningColor">
+			<baseColor>(162,106,57)</baseColor>
+			<weight>0.3</weight>
+		</li>
+	</value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="MM_HeavyMagicalLeather"]</xpath>
+	<value>
+		<colorGeneratorInTraderStock Class="ColorGenerator_Options">	
+			<options>
+			<li>
+			  <weight>1</weight>
+			  <only>(71,63,56)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(114,102,73)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(157, 123, 102)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(92, 64, 49)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(86, 102, 57)</only>
+			</li>
+			</options>
+		</colorGeneratorInTraderStock>
+	</value>
+</Operation>
+
+</Patch>

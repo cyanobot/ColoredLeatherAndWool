@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="AA_Leather_Aerofleet"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="AA_Leather_Aerofleet"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="AA_Leather_Aerofleet"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_TanningColor">
+			<baseColor>(100,100,100)</baseColor>
+			<weight>0.2</weight>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Leather_Cactus"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Leather_Cactus"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Leather_Cactus"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_TanningColor">
+			<baseColor>(89, 84, 55)</baseColor>
+			<weight>0.2</weight>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Leather_Night"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Leather_Night"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Leather_Night"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_TanningColor">
+			<baseColor>(0, 0, 0)</baseColor>
+			<weight>0.5</weight>
+		</li>
+	</value>
+</Operation>
+
+</Patch>

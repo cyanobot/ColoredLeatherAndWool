@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+<Operation Class="PatchOperationAdd">
+	<success>Always</success>
+	<xpath>Defs/ThingDef[@Name="BWP_FleeceBase"]</xpath>
+	<value>
+		<comps/>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationAdd">
+	<success>Always</success>
+	<xpath>Defs/ThingDef[@Name="BWP_FleeceBase"]/comps</xpath>
+	<value>
+		<li>
+			<compClass>CompColorable</compClass>
+		</li>
+		<li>
+			<compClass>ColoredLeatherAndWool.CompColorNoStack</compClass>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[@Name="BWP_FleeceBase"]/modExtensions</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="BWP_FleeceBase"]</xpath>
+		<value>
+			<modExtensions/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[@Name="BWP_FleeceBase"]/modExtensions</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.DefModExtension_ReceivesAnimalColor"/>
+	</value>
+</Operation>
+
+</Patch>

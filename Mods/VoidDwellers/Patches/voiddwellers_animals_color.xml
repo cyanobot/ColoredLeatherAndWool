@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Purple_Nebula_Dragon"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Purple_Nebula_Dragon"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Purple_Nebula_Dragon"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(69, 33, 78)</color>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Blue_Nebula_Dragon"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Blue_Nebula_Dragon"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Blue_Nebula_Dragon"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(47, 75, 78)</color>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Red_Nebula_Dragon"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Red_Nebula_Dragon"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Red_Nebula_Dragon"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(90, 39, 25)</color>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="EH_Void_Dragon"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="EH_Void_Dragon"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="EH_Void_Dragon"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(42, 39, 50)</color>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Destroyer_Void_Dragon"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Destroyer_Void_Dragon"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Destroyer_Void_Dragon"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(39, 41, 51)</color>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Eater_Void_Dragon"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Eater_Void_Dragon"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Eater_Void_Dragon"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(36, 37, 38)</color>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Harbinger_Void_Dragon"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Harbinger_Void_Dragon"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Harbinger_Void_Dragon"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(38, 33, 39)</color>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Rurelion_Zol_Dragon"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Rurelion_Zol_Dragon"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Rurelion_Zol_Dragon"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(19, 23, 44)</color>
+		</li>
+	</value>
+</Operation>
+
+</Patch>

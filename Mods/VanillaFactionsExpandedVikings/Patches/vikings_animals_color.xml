@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="VFEV_WoolyCow"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="VFEV_WoolyCow"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="VFEV_WoolyCow"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(156, 87, 55)</color>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="VFEV_Fenrir"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="VFEV_Fenrir"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="VFEV_Fenrir"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(218, 205, 191)</color>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="VFEV_Lothurr"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="VFEV_Lothurr"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="VFEV_Lothurr"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(129, 105, 81)</color>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="VFEV_Njorun"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="VFEV_Njorun"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="VFEV_Njorun"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(238, 239, 238)</color>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="VFEV_Wolfhound"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="VFEV_Wolfhound"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="VFEV_Wolfhound"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(139, 134, 121)</color>
+		</li>
+	</value>
+</Operation>
+
+</Patch>

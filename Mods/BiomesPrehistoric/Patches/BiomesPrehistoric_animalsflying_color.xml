@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Pathfinding Framework</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="BMT_Anhanguera"]/comps</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="BMT_Anhanguera"]</xpath>
+					<value>
+						<comps/>
+					</value>
+				</nomatch>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="BMT_Anhanguera"]/comps</xpath>
+				<value>
+					<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+						<color>(177, 168, 159)</color>
+					</li>
+				</value>
+			</li>
+
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="BMT_Bladecrest"]/comps</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="BMT_Bladecrest"]</xpath>
+					<value>
+						<comps/>
+					</value>
+				</nomatch>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="BMT_Bladecrest"]/comps</xpath>
+				<value>
+					<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+						<color>(86, 79, 120)</color>
+					</li>
+				</value>
+			</li>
+
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="BMT_Cryodrakon"]/comps</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="BMT_Cryodrakon"]</xpath>
+					<value>
+						<comps/>
+					</value>
+				</nomatch>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="BMT_Cryodrakon"]/comps</xpath>
+				<value>
+					<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+						<color>(110, 107, 112)</color>
+					</li>
+				</value>
+			</li>
+
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="BMT_Dimorphodon"]/comps</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="BMT_Dimorphodon"]</xpath>
+					<value>
+						<comps/>
+					</value>
+				</nomatch>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="BMT_Dimorphodon"]/comps</xpath>
+				<value>
+					<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+						<color>(78, 79, 83)</color>
+					</li>
+				</value>
+			</li>
+
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="BMT_Pteranodon"]/comps</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="BMT_Pteranodon"]</xpath>
+					<value>
+						<comps/>
+					</value>
+				</nomatch>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="BMT_Pteranodon"]/comps</xpath>
+				<value>
+					<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+						<color>(64, 69, 61)</color>
+					</li>
+				</value>
+			</li>
+
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="BMT_Quetzal"]/comps</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="BMT_Quetzal"]</xpath>
+					<value>
+						<comps/>
+					</value>
+				</nomatch>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="BMT_Quetzal"]/comps</xpath>
+				<value>
+					<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+						<color>(136, 87, 68)</color>
+					</li>
+				</value>
+			</li>
+
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="BMT_Tapejara"]/comps</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="BMT_Tapejara"]</xpath>
+					<value>
+						<comps/>
+					</value>
+				</nomatch>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="BMT_Tapejara"]/comps</xpath>
+				<value>
+					<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+						<color>(245, 226, 174)</color>
+					</li>
+				</value>
+			</li>
+
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="BMT_Thalassodromeus"]/comps</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="BMT_Thalassodromeus"]</xpath>
+					<value>
+						<comps/>
+					</value>
+				</nomatch>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="BMT_Thalassodromeus"]/comps</xpath>
+				<value>
+					<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+						<color>(215, 215, 215)</color>
+					</li>
+				</value>
+			</li>
+			
+		</operations>
+	</match>
+</Operation>
+
+</Patch>

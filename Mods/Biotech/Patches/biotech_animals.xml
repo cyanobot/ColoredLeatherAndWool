@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="WasteRat"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="WasteRat"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="WasteRat"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(135, 121, 80)</color>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Toxalope"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Toxalope"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Toxalope"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(119, 117, 98)</color>
+		</li>
+	</value>
+</Operation>
+
+</Patch>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<!-- rebalance-->
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="Dragon_Leather"]/description</xpath>
+	<value>
+		<description>Exotic leather of a dragon. The tanning process has converted the hide into a rich, supple, strong leather.</description>
+	</value>
+</Operation>
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Dragon_Leather"]/colorGeneratorInTraderStock</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Dragon_Leather"]</xpath>
+		<value>
+			<colorGeneratorInTraderStock Class="ColorGenerator_Options">
+				<options>
+				<li>
+				  <weight>2</weight>
+				  <only>(40, 35, 35)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(35, 36, 41)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(37, 36, 40)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(63, 79, 125)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(63, 79, 125)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(60, 68, 125)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(46, 84, 102)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(70, 85, 129)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(52, 84, 40)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(55, 75, 34)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(54, 88, 43)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(45, 80, 44)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(63, 43, 90)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(63, 43, 90)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(56, 35, 97)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(79, 62, 100)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(52, 42, 90)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(70, 20, 18)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(90, 31, 37)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(81, 30, 21)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(80, 22, 19)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(239, 247, 252)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(233, 232, 225)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(252, 252, 237)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(240, 252, 253)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(177, 168, 115)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(199, 184, 118)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(189, 181, 140)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(200, 190, 132)</only>
+				</li>
+				</options>
+			</colorGeneratorInTraderStock>
+		</value>
+	</nomatch>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="Rare_Dragon_Leather"]/description</xpath>
+	<value>
+		<description>The tanning process has converted these scales into a rich, supple, strong leather.</description>
+	</value>
+</Operation>
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Rare_Dragon_Leather"]/colorGeneratorInTraderStock</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Rare_Dragon_Leather"]</xpath>
+		<value>
+			<colorGeneratorInTraderStock Class="ColorGenerator_Options">
+				<options>
+				<li>
+				  <weight>1</weight>
+				  <only>(203, 182, 81)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(208, 167, 133)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(215, 208, 164)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(169, 167, 174)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(107, 105, 106)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(166, 166, 161)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(115, 171, 141)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(46, 103, 74)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(112, 156, 129)</only>
+				</li>
+				</options>
+			</colorGeneratorInTraderStock>
+		</value>
+	</nomatch>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+	<xpath>Defs/ThingDef[defName="True_Dragon_Leather"]/description</xpath>
+	<value>
+		<description>The tanning process has converted these scales into a rich, supple, strong leather.</description>
+	</value>
+</Operation>
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Rare_Dragon_Leather"]/colorGeneratorInTraderStock</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Rare_Dragon_Leather"]</xpath>
+		<value>
+			<colorGeneratorInTraderStock Class="ColorGenerator_Options">
+				<options>
+				<li>
+				  <weight>1</weight>
+				  <only>(71, 17, 19)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(87, 30, 16)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(81, 30, 37)</only>
+				</li>
+				</options>
+			</colorGeneratorInTraderStock>
+		</value>
+	</nomatch>
+</Operation>
+
+</Patch>

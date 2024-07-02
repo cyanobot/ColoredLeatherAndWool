@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Cat"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Cat"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>[ATW] Ridiculous Cat Variety</li>
+	</mods>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Cat"]/comps</xpath>
+		<value>
+			<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+				<color>(189,171,159)</color>
+				<alternateGraphicColors>
+					<li>(169, 113, 52)</li>
+					<li>(112, 78, 48)</li>
+					<li>(43, 43, 43)</li>
+					<li>(43, 43, 43)</li>
+					<li>(86, 70, 48)</li>
+					<li>(106, 114, 119)</li>
+					<li>(123, 123, 123)</li>
+					<li>(96, 103, 109)</li>
+					<li>(55, 50, 48)</li>
+					<li>(209, 202, 194)</li>
+					<li>(81, 83, 87)</li>
+					<li>(126, 95, 57)</li>
+					<li>(72, 67, 60)</li>
+					<li>(238, 237, 238)</li>
+					<li>(165, 162, 154)</li>
+				</alternateGraphicColors>
+			</li>
+		</value>
+	</nomatch>
+</Operation>
+
+</Patch>

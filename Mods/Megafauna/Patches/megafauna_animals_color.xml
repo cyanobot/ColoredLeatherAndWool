@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Deinotherium"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Deinotherium"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Colorful Coats - Megafauna!</li>
+	</mods>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Deinotherium"]/comps</xpath>
+		<value>
+			<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+				<color>(180, 173, 186)</color>
+			</li>
+		</value>
+	</nomatch>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Aurochs"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Aurochs"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Aurochs"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(180, 115, 67)</color>
+			<colorMale>(68, 58, 58)</colorMale>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Megalochelys"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Megalochelys"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Megalochelys"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(146, 138, 135)</color>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Palaeeudyptes"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Palaeeudyptes"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Palaeeudyptes"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(144, 141, 136)</color>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Josephoartigasia"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Josephoartigasia"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Colorful Coats - Megafauna!</li>
+	</mods>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Josephoartigasia"]/comps</xpath>
+		<value>
+			<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+				<color>(135, 112, 80)</color>
+			</li>
+		</value>
+	</nomatch>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Gigantophis"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Gigantophis"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Gigantophis"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(99, 50, 61)</color>
+			<colorMale>(99, 68, 50)</colorMale>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Zygolophodon"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Zygolophodon"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Colorful Coats - Megafauna!</li>
+	</mods>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Zygolophodon"]/comps</xpath>
+		<value>
+			<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+				<color>(144, 130, 126)</color>
+			</li>
+		</value>
+	</nomatch>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Platybelodon"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Platybelodon"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Colorful Coats - Megafauna!</li>
+	</mods>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Platybelodon"]/comps</xpath>
+		<value>
+			<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+				<color>(126, 113, 94)</color>
+			</li>
+		</value>
+	</nomatch>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Purussaurus"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Purussaurus"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Colorful Coats - Megafauna!</li>
+	</mods>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Purussaurus"]/comps</xpath>
+		<value>
+			<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+				<color>(86, 98, 96)</color>
+			</li>
+		</value>
+	</nomatch>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Uintatherium"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Uintatherium"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Colorful Coats - Megafauna!</li>
+	</mods>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Uintatherium"]/comps</xpath>
+		<value>
+			<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+				<color>(174, 165, 162)</color>
+			</li>
+		</value>
+	</nomatch>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Dinopithecus"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Dinopithecus"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Dinopithecus"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(144, 109, 87)</color>
+			<colorMale>(129, 115, 107)</colorMale>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Castoroides"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Castoroides"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Colorful Coats - Megafauna!</li>
+	</mods>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Castoroides"]/comps</xpath>
+		<value>
+			<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+				<color>(147, 115, 96)</color>
+			</li>
+		</value>
+	</nomatch>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Enhydriodon"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Enhydriodon"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Colorful Coats - Megafauna!</li>
+	</mods>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Enhydriodon"]/comps</xpath>
+		<value>
+			<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+				<color>(47, 40, 30)</color>
+			</li>
+		</value>
+	</nomatch>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Gomphotaria"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Gomphotaria"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Colorful Coats - Megafauna!</li>
+	</mods>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Gomphotaria"]/comps</xpath>
+		<value>
+			<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+				<color>(108, 103, 87)</color>
+			</li>
+		</value>
+	</nomatch>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Diprotodon"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Diprotodon"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Colorful Coats - Megafauna!</li>
+	</mods>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Diprotodon"]/comps</xpath>
+		<value>
+			<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+				<color>(135, 119, 79)</color>
+			</li>
+		</value>
+	</nomatch>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="ShortfacedBear"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="ShortfacedBear"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="ShortfacedBear"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(177, 149, 119)</color>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Dinocrocuta"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Dinocrocuta"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Colorful Coats - Megafauna!</li>
+	</mods>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Dinocrocuta"]/comps</xpath>
+		<value>
+			<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+				<color>(167, 112, 56)</color>
+			</li>
+		</value>
+	</nomatch>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Sivatherium"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Sivatherium"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Colorful Coats - Megafauna!</li>
+	</mods>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Sivatherium"]/comps</xpath>
+		<value>
+			<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+				<color>(161, 137, 122)</color>
+			</li>
+		</value>
+	</nomatch>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Andrewsarchus"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Andrewsarchus"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Colorful Coats - Megafauna!</li>
+	</mods>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Andrewsarchus"]/comps</xpath>
+		<value>
+			<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+				<color>(201, 157, 81)</color>
+			</li>
+		</value>
+	</nomatch>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Dinornis"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Dinornis"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Dinornis"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(72, 81, 109)</color>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Macrauchenia"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Macrauchenia"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Colorful Coats - Megafauna!</li>
+	</mods>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Macrauchenia"]/comps</xpath>
+		<value>
+			<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+				<color>(115, 87, 46)</color>
+			</li>
+		</value>
+	</nomatch>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Quinkana"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Quinkana"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Quinkana"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(141, 160, 93)</color>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Doedicurus"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Doedicurus"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Colorful Coats - Megafauna!</li>
+	</mods>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Doedicurus"]/comps</xpath>
+		<value>
+			<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+				<color>(156, 150, 135)</color>
+			</li>
+		</value>
+	</nomatch>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Daeodon"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Daeodon"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Colorful Coats - Megafauna!</li>
+	</mods>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Daeodon"]/comps</xpath>
+		<value>
+			<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+				<color>(145, 128, 87)</color>
+			</li>
+		</value>
+	</nomatch>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Paraceratherium"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Paraceratherium"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Paraceratherium"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(240, 244, 240)</color>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Titanis"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Titanis"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Titanis"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(66, 63, 98)</color>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Titanoboa"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Titanoboa"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Titanoboa"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(207, 203, 150)</color>
+			<colorMale>(204, 181, 141)</colorMale>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="WoollyMammoth"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="WoollyMammoth"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Colorful Coats - Megafauna!</li>
+	</mods>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="WoollyMammoth"]/comps</xpath>
+		<value>
+			<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+				<color>(93, 73, 53)</color>
+			</li>
+		</value>
+	</nomatch>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Elasmotherium"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Elasmotherium"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Colorful Coats - Megafauna!</li>
+	</mods>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Elasmotherium"]/comps</xpath>
+		<value>
+			<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+				<color>(93, 81, 70)</color>
+			</li>
+		</value>
+	</nomatch>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Smilodon"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Smilodon"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Colorful Coats - Megafauna!</li>
+	</mods>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Smilodon"]/comps</xpath>
+		<value>
+			<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+				<color>(162, 141, 121)</color>
+			</li>
+		</value>
+	</nomatch>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Chalicotherium"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Chalicotherium"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Colorful Coats - Megafauna!</li>
+	</mods>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Chalicotherium"]/comps</xpath>
+		<value>
+			<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+				<color>(219, 169, 112)</color>
+			</li>
+		</value>
+	</nomatch>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Megaloceros"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Megaloceros"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Megaloceros"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(148, 111, 93)</color>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Procoptodon"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Procoptodon"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Procoptodon"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(186, 159, 158)</color>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Megalania"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Megalania"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Megalania"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(82, 95, 108)</color>
+		</li>
+	</value>
+</Operation>
+
+</Patch>

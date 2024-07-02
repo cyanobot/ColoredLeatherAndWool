@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Leather_Plain"]/colorGeneratorInTraderStock</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Leather_Plain"]</xpath>
+		<value>
+			<colorGeneratorInTraderStock Class="ColorGenerator_Options">
+				<options>
+				<li>
+				  <weight>1</weight>
+				  <only>(184, 156, 130)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(152, 106, 66)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(170, 137, 101)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(163, 137, 114)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(118, 90, 63)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(163, 126, 87)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(133, 98, 64)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(131, 93, 66)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(139, 94, 66)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(155, 116, 87)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(128, 91, 60)</only>
+				</li>
+				</options>
+			</colorGeneratorInTraderStock>
+		</value>
+	</nomatch>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Leather_Light"]/colorGeneratorInTraderStock</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Leather_Light"]</xpath>
+		<value>
+			<colorGeneratorInTraderStock Class="ColorGenerator_Options">
+				<options>
+				<li>
+				  <weight>1</weight>
+				  <only>(200, 177, 151)</only>
+				</li>
+				</options>
+			</colorGeneratorInTraderStock>
+		</value>
+	</nomatch>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Leather_Rhinoceros"]/colorGeneratorInTraderStock</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Leather_Rhinoceros"]</xpath>
+		<value>
+			<colorGeneratorInTraderStock Class="ColorGenerator_Options">
+				<options>			
+				<li>
+				  <weight>1</weight>
+				  <only>(126, 118, 100)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(87, 79, 61)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(73, 66, 54)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(132, 129, 123)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(121, 117, 111)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(104, 100, 94)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(71, 67, 62)</only>
+				</li>
+				</options>
+			</colorGeneratorInTraderStock>
+		</value>
+	</nomatch>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Leather_Camel"]/colorGeneratorInTraderStock</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Leather_Camel"]</xpath>
+		<value>
+			<colorGeneratorInTraderStock Class="ColorGenerator_Options">	
+				<options>
+				<li>
+				  <weight>1</weight>
+				  <only>(187, 168, 140)</only>
+				</li>	
+				<li>
+				  <weight>1</weight>
+				  <only>(200, 179, 145)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(182, 157, 124)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(193, 177, 152)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(155, 142, 109)</only>
+				</li>
+				</options>
+			</colorGeneratorInTraderStock>
+		</value>
+	</nomatch>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Leather_Lizard"]/colorGeneratorInTraderStock</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Leather_Lizard"]</xpath>
+		<value>
+			<colorGeneratorInTraderStock Class="ColorGenerator_Options">
+				<options>
+				<li>
+				  <weight>1</weight>
+				  <only>(106, 98, 91)</only>
+				</li>	
+				<li>
+				  <weight>1</weight>
+				  <only>(110, 118, 79)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(113, 118, 109)</only>
+				</li>
+				</options>
+			</colorGeneratorInTraderStock>
+		</value>
+	</nomatch>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Leather_Bird"]/colorGeneratorInTraderStock</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Leather_Bird"]</xpath>
+		<value>
+			<colorGeneratorInTraderStock Class="ColorGenerator_Options">	
+				<options>
+				<li>
+				  <weight>1</weight>
+				  <only>(140, 125, 112)</only>
+				</li>	
+				<li>
+				  <weight>1</weight>
+				  <only>(101, 89, 83)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(154, 131, 121)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(138, 117, 108)</only>
+				</li>
+				</options>
+			</colorGeneratorInTraderStock>
+		</value>
+	</nomatch>
+</Operation>
+
+
+</Patch>

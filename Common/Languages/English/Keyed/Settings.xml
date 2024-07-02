@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+<CG_SettingLabel_DisableStacking>Disable stacking different colors together</CG_SettingLabel_DisableStacking>
+<CG_SettingDesc_DisableStacking>When this setting is ON, colorable items will only stack if they are the same color. OFF for vanilla behaviour - different colors will merge into one stack.</CG_SettingDesc_DisableStacking>
+
+<CG_SettingLabel_TannedColors>"Tanned" colors</CG_SettingLabel_TannedColors>
+<CG_SettingDesc_TannedColors>ON: "leathery" leathers (but not wools or furs) take on a browner, less saturated version of the animal's color. OFF: all leathers inherit the animal's color directly.</CG_SettingDesc_TannedColors>
+
+</LanguageData>

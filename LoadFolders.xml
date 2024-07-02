@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<loadFolders>
+  <v1.4>
+    <li>/</li>
+    <li>Common</li>
+	<li>1.4</li>
+	<!--color variations-->
+    <li IfModActive="mgatwood.catvariety">Mods/ATWCatVariety</li>
+    <li IfModActive="mgatwood.wargvariety">Mods/ATWWargVariety</li>
+    <li IfModActive="cucumpear.azrael.varietycoats">Mods/AnimalVarietyCoats</li>
+    <li IfModActive="Erin.Cats">Mods/ErinCatOverhaul</li>
+    <li IfModActive="VanillaExpanded.VTEXE">Mods/VanillaTexturesExpanded</li>
+    <li IfModActive="purpleyam.colorfulcoats.spinomegafauna">Mods/ColorfulCoatsMegafauna</li>
+	<!--more animals-->
+    <li IfModActive="Ludeon.RimWorld.Biotech">Mods/Biotech</li>
+    <li IfModActive="sarg.alphaanimals">Mods/AlphaAnimals</li>
+    <li IfModActive="sarg.magicalmenagerie">Mods/AlphaMythology</li>
+    <li IfModActive="BiomesTeam.BiomesCore">Mods/BiomesCore</li>
+    <li IfModActive="BiomesTeam.BiomesCaverns">Mods/BiomesCaverns</li>
+    <li IfModActive="BiomesTeam.BiomesIslands">Mods/BiomesIslands</li>
+    <li IfModActive="BiomesTeam.Oasis">Mods/BiomesOasis</li>
+    <li IfModActive="BiomesTeam.BiomesPrehistoric">Mods/BiomesPrehistoric</li>
+    <li IfModActive="Zeitloser.BirdsBeyond.TF">Mods/BirdsBeyondTemperate</li>
+    <li IfModActive="Zeitloser.BirdsBeyond.TRF">Mods/BirdsBeyondTropical</li>
+    <li IfModActive="onyxae.dragonsdescent">Mods/DragonsDescent</li>
+    <li IfModActive="ravvy.DD.Void.Addon">Mods/VoidDwellers</li>
+    <li IfModActive="Dumbs.DumbsDachshunds">Mods/DumbsDachshunds</li>
+    <li IfModActive="ATK.DevilstrandAnimals">Mods/DevilstrandAnimals</li>
+    <li IfModActive="Erin.Ferret">Mods/ErinFerret</li>
+    <li IfModActive="Erin.FFAnimals">Mods/ErinFinalFantasy</li>
+    <li IfModActive="Erin.Foxsquirrel">Mods/ErinFoxsquirrel</li>
+    <li IfModActive="Erin.LizzardDoggo">Mods/ErinLizardDoggo</li>
+    <li IfModActive="Erin.Mountain">Mods/ErinMountainAnimals</li>
+    <li IfModActive="Erin.MountainDog">Mods/ErinMountainDog</li>
+    <li IfModActive="Erin.Palamutes">Mods/ErinPalamutes</li>
+    <li IfModActive="Erin.Valheim.Creatures">Mods/ErinValheimCreatures</li>
+    <li IfModActive="Erin.Wildlife">Mods/ErinWildlife</li>
+    <li IfModActive="Alfinalightmagefalling.fancyrats">Mods/FancyRats</li>
+    <li IfModActive="Spino.Megafauna">Mods/Megafauna</li>
+    <li IfModActive="HidingFox.MoreFoxes">Mods/MoreFoxes</li>
+    <li IfModActive="ReGrowth.BOTR.Core">Mods/ReGrowthCore</li>
+    <li IfModActive="ReGrowth.BOTR.BoilingForest">Mods/ReGrowthBoiling</li>
+    <li IfModActive="ReGrowth.BOTR.ExtinctAnimalsPack">Mods/ReGrowthExtinct</li>
+    <li IfModActive="ReGrowth.BOTR.Wastelands">Mods/ReGrowthWastelands</li>
+    <li IfModActive="pausbrak.redwolves">Mods/RedWolves</li>
+    <li IfModActive="Abrolo.SwampMonsters">Mods/SwampMonsters</li>
+    <li IfModActive="Mlie.TropickappRainforestMod">Mods/Tropickapp</li>
+    <li IfModActive="VanillaExpanded.VanillaAnimalsExpanded">Mods/VanillaAnimalsExpanded</li>
+    <li IfModActive="VanillaExpanded.VAEWaste">Mods/VanillaAnimalsExpandedWaste</li>
+    <li IfModActive="VanillaExpanded.VAERoy">Mods/VanillaAnimalsExpandedRoyal</li>
+    <li IfModActive="VanillaExpanded.VAEEndAndExt">Mods/VanillaAnimalsExpandedEndangered</li>
+    <li IfModActive="OskarPotocki.VFE.Vikings">Mods/VanillaFactionsExpandedVikings</li>
+	<!--wool mechanics-->
+    <li IfModActive="MysticFelines.BWP">Mods/BetterWoolProduction</li>
+  </v1.4>
+  <v1.5>
+    <li>/</li>
+    <li>Common</li>
+	<li>1.5</li>
+	<!--color variations-->
+    <li IfModActive="mgatwood.catvariety">Mods/ATWCatVariety</li>
+    <li IfModActive="mgatwood.wargvariety">Mods/ATWWargVariety</li>
+    <li IfModActive="cucumpear.azrael.varietycoats">Mods/AnimalVarietyCoats</li>
+    <li IfModActive="Erin.Cats">Mods/ErinCatOverhaul</li>
+    <li IfModActive="VanillaExpanded.VTEXE">Mods/VanillaTexturesExpanded</li>
+    <li IfModActive="purpleyam.colorfulcoats.spinomegafauna">Mods/ColorfulCoatsMegafauna</li>
+	<!--more animals-->
+    <li IfModActive="Ludeon.RimWorld.Biotech">Mods/Biotech</li>
+    <li IfModActive="sarg.alphaanimals">Mods/AlphaAnimals</li>
+    <li IfModActive="sarg.magicalmenagerie">Mods/AlphaMythology</li>
+    <li IfModActive="BiomesTeam.BiomesCore">Mods/BiomesCore</li>
+    <li IfModActive="BiomesTeam.BiomesCaverns">Mods/BiomesCaverns</li>
+    <li IfModActive="BiomesTeam.BiomesIslands">Mods/BiomesIslands</li>
+    <li IfModActive="BiomesTeam.Oasis">Mods/BiomesOasis</li>
+    <li IfModActive="BiomesTeam.BiomesPrehistoric">Mods/BiomesPrehistoric</li>
+    <li IfModActive="Zeitloser.BirdsBeyond.TF">Mods/BirdsBeyondTemperate</li>
+    <li IfModActive="Zeitloser.BirdsBeyond.TRF">Mods/BirdsBeyondTropical</li>
+    <li IfModActive="onyxae.dragonsdescent">Mods/DragonsDescent</li>
+    <li IfModActive="ravvy.DD.Void.Addon">Mods/VoidDwellers</li>
+    <li IfModActive="Dumbs.DumbsDachshunds">Mods/DumbsDachshunds</li>
+    <li IfModActive="ATK.DevilstrandAnimals">Mods/DevilstrandAnimals</li>
+    <li IfModActive="Erin.Ferret">Mods/ErinFerret</li>
+    <li IfModActive="Erin.FFAnimals">Mods/ErinFinalFantasy</li>
+    <li IfModActive="Erin.Foxsquirrel">Mods/ErinFoxsquirrel</li>
+    <li IfModActive="Erin.LizzardDoggo">Mods/ErinLizardDoggo</li>
+    <li IfModActive="Erin.Mountain">Mods/ErinMountainAnimals</li>
+    <li IfModActive="Erin.MountainDog">Mods/ErinMountainDog</li>
+    <li IfModActive="Erin.Palamutes">Mods/ErinPalamutes</li>
+    <li IfModActive="Erin.Valheim.Creatures">Mods/ErinValheimCreatures</li>
+    <li IfModActive="Erin.Wildlife">Mods/ErinWildlife</li>
+    <li IfModActive="Alfinalightmagefalling.fancyrats">Mods/FancyRats</li>
+    <li IfModActive="Spino.Megafauna">Mods/Megafauna</li>
+    <li IfModActive="HidingFox.MoreFoxes">Mods/MoreFoxes</li>
+    <li IfModActive="ReGrowth.BOTR.Core">Mods/ReGrowthCore</li>
+    <li IfModActive="ReGrowth.BOTR.BoilingForest">Mods/ReGrowthBoiling</li>
+    <li IfModActive="ReGrowth.BOTR.ExtinctAnimalsPack">Mods/ReGrowthExtinct</li>
+    <li IfModActive="ReGrowth.BOTR.Wastelands">Mods/ReGrowthWastelands</li>
+    <li IfModActive="pausbrak.redwolves">Mods/RedWolves</li>
+    <li IfModActive="Abrolo.SwampMonsters">Mods/SwampMonsters</li>
+    <li IfModActive="Mlie.TropickappRainforestMod">Mods/Tropickapp</li>
+    <li IfModActive="VanillaExpanded.VanillaAnimalsExpanded">Mods/VanillaAnimalsExpanded</li>
+    <li IfModActive="VanillaExpanded.VAEWaste">Mods/VanillaAnimalsExpandedWaste</li>
+    <li IfModActive="VanillaExpanded.VAERoy">Mods/VanillaAnimalsExpandedRoyal</li>
+    <li IfModActive="VanillaExpanded.VAEEndAndExt">Mods/VanillaAnimalsExpandedEndangered</li>
+    <li IfModActive="OskarPotocki.VFE.Vikings">Mods/VanillaFactionsExpandedVikings</li>
+	<!--wool mechanics-->
+    <li IfModActive="MysticFelines.BWP">Mods/BetterWoolProduction</li>
+  </v1.5>
+</loadFolders>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="ERN_Carbuncle"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="ERN_Carbuncle"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="ERN_Carbuncle"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(144, 202, 216)</color>
+			<alternateGraphicColors>
+				<li>(118, 118, 118)</li>
+				<li>(143, 199, 124)</li>
+				<li>(202, 92, 88)</li>
+				<li>(220, 220, 220)</li>
+				<li>(219, 186, 97)</li>
+				<li>(104, 131, 209)</li>
+			</alternateGraphicColors>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="ERN_BigCarbuncle"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="ERN_BigCarbuncle"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="ERN_BigCarbuncle"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(144, 202, 216)</color>
+			<alternateGraphicColors>
+				<li>(118, 118, 118)</li>
+				<li>(143, 199, 124)</li>
+				<li>(202, 92, 88)</li>
+				<li>(220, 220, 220)</li>
+				<li>(219, 186, 97)</li>
+				<li>(104, 131, 209)</li>
+			</alternateGraphicColors>
+		</li>
+	</value>
+</Operation>
+
+</Patch>

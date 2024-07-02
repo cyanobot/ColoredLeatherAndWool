@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Cloth"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Cloth"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Cloth"]/comps</xpath>
+	<value>
+	  <li>
+		<compClass>ColoredLeatherAndWool.CompColorNoStack</compClass>
+	  </li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Synthread"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Synthread"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Synthread"]/comps</xpath>
+	<value>
+	  <li>
+		<compClass>ColoredLeatherAndWool.CompColorNoStack</compClass>
+	  </li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="DevilstrandCloth"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="DevilstrandCloth"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="DevilstrandCloth"]/comps</xpath>
+	<value>
+	  <li>
+		<compClass>ColoredLeatherAndWool.CompColorNoStack</compClass>
+	  </li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Hyperweave"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Hyperweave"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Hyperweave"]/comps</xpath>
+	<value>
+	  <li>
+		<compClass>ColoredLeatherAndWool.CompColorNoStack</compClass>
+	  </li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[@Name="WoolBase"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="WoolBase"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[@Name="WoolBase"]/comps</xpath>
+	<value>
+	  <li>
+		<compClass>ColoredLeatherAndWool.CompColorNoStack</compClass>
+	  </li>
+	</value>
+</Operation>
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[@Name="WoolBase"]/comps/li[compClass="CompColorable"]</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="WoolBase"]/comps</xpath>
+		<value>
+		  <li>
+			<compClass>CompColorable</compClass>
+		  </li>
+		</value>
+	</nomatch>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[@Name="LeatherBase"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="LeatherBase"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[@Name="LeatherBase"]/comps</xpath>
+	<value>
+	  <li>
+		<compClass>ColoredLeatherAndWool.CompColorNoStack</compClass>
+	  </li>
+	</value>
+</Operation>
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[@Name="LeatherBase"]/comps/li[compClass="CompColorable"]</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="LeatherBase"]/comps</xpath>
+		<value>
+		  <li>
+			<compClass>CompColorable</compClass>
+		  </li>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[@Name="LeatherBase"]/modExtensions</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="LeatherBase"]</xpath>
+		<value>
+			<modExtensions/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[@Name="LeatherBase"]/modExtensions</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.DefModExtension_ReceivesButcherColor"/>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[@Name="WoolBase"]/modExtensions</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="WoolBase"]</xpath>
+		<value>
+			<modExtensions/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[@Name="WoolBase"]/modExtensions</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.DefModExtension_ReceivesAnimalColor"/>
+	</value>
+</Operation>
+
+</Patch>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<!-- furs have no tannedcolor because they retain the color of the animal's fur -->
+<!-- leathers have shades of brown to represent the color change from skin to leather -->
+<!-- these are mixed with the color of the animal in various ratios -->
+<!-- so that the leather color still reflects the color of the animal, but less vibrant than in life -->
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Leather_Plain"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Leather_Plain"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Leather_Plain"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_TanningColor">
+			<baseColor>(162,106,57)</baseColor>
+			<weight>0.4</weight>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Leather_Light"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Leather_Light"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Leather_Light"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_TanningColor">
+			<baseColor>(196,151,106)</baseColor>
+			<weight>0.5</weight>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Leather_Pig"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Leather_Pig"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Leather_Pig"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_TanningColor">
+			<baseColor>(101, 73, 67)</baseColor>
+			<weight>0.3</weight>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Leather_Rhinoceros"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Leather_Rhinoceros"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Leather_Rhinoceros"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_TanningColor">
+			<baseColor>(87,75,58)</baseColor>
+			<weight>0.4</weight>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Leather_Elephant"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Leather_Elephant"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Leather_Elephant"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_TanningColor">
+			<baseColor>(87,75,58)</baseColor>
+			<weight>0.4</weight>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Leather_Camel"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Leather_Camel"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Leather_Camel"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_TanningColor">
+			<baseColor>(204,180,150)</baseColor>
+			<weight>0.7</weight>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Leather_Lizard"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Leather_Lizard"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Leather_Lizard"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_TanningColor">
+			<baseColor>(100,100,100)</baseColor>
+			<weight>0.2</weight>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Leather_Bird"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Leather_Bird"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Leather_Bird"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_TanningColor">
+			<baseColor>(130,110,100)</baseColor>
+			<weight>0.7</weight>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Leather_Human"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Leather_Human"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Leather_Human"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_TanningColor">
+			<baseColor>(211,194,143)</baseColor>
+			<weight>0.4</weight>
+		</li>
+	</value>
+</Operation>
+
+</Patch>

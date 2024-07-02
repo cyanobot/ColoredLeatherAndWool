@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="FancyRat"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="FancyRat"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="FancyRat"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(225, 228, 225)</color>
+			<alternateGraphicColors>
+				<li>(225, 228, 225)</li>		<!--albino-->
+				<li>(34, 32, 29)</li>			<!--berkshire-->
+				<li>(225, 228, 225)</li>		<!--cappedA-->
+				<li>(225, 228, 225)</li>		<!--cappedB-->
+				<li>(225, 228, 225)</li>		<!--cappedC-->
+				<li>(225, 228, 225)</li>		<!--cappedD-->
+				<li>(225, 228, 225)</li>		<!--cappedE-->
+				<li>(49, 33, 17)</li>			<!--chocolate-->
+				<li>(184, 135, 135)</li>		<!--hairless-->
+				<li>(26, 26, 23)</li>			<!--hoodedA-->
+				<li>(167, 149, 130)</li>		<!--hoodedB-->
+				<li>(82, 60, 39)</li>			<!--hoodedC-->
+				<li>(142, 143, 141)</li>		<!--hoodedD-->
+				<li>(216, 159, 99)</li>			<!--hoodedE-->
+				<li>(75, 75, 75)</li>			<!--martin-->
+				<li>(184, 135, 135)</li>		<!--patchwork-->
+				<li>(26, 26, 23)</li>			<!--selfA-->
+				<li>(167, 149, 130)</li>		<!--selfB-->
+				<li>(82, 60, 39)</li>			<!--selfC-->
+				<li>(142, 143, 141)</li>		<!--selfD-->
+				<li>(216, 159, 99)</li>			<!--selfE-->
+				<li>(225, 228, 225)</li>		<!--selfF-->
+				<li>(193, 178, 162)</li>		<!--siamese-->
+				<li>(139, 138, 143)</li>		<!--silvermane-->
+			</alternateGraphicColors>
+		</li>
+	</value>
+</Operation>
+
+</Patch>
+

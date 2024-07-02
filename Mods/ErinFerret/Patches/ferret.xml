@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="ERN_Ferret"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="ERN_Ferret"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="ERN_Ferret"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(243, 243, 241)</color>
+			<alternateGraphicColors>
+				<li>(213, 204, 180)</li>
+				<li>(110, 96, 87)</li>
+				<li>(194, 174, 147)</li>
+				<li>(110, 97, 88)</li>
+				<li>(242, 242, 241)</li>
+				<li>(154, 154, 153)</li>
+				<li>(110, 96, 89)</li>
+				<li>(73, 57, 43)</li>
+				<li>(95, 85, 81)</li>
+				<li>(119, 92, 72)</li>
+				<li>(177, 120, 96)</li>
+			</alternateGraphicColors>
+		</li>
+	</value>
+</Operation>
+
+</Patch>

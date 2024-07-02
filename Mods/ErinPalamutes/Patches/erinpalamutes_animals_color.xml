@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="ERN_Palamute"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="ERN_Palamute"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="ERN_Palamute"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(110, 121, 128)</color>
+			<alternateGraphicColors>
+				<li>(112, 100, 92)</li>
+				<li>(125, 136, 146)</li>
+				<li>(200, 190, 180)</li>
+				<li>(96, 97, 99)</li>
+				<li>(191, 195, 197)</li>
+			</alternateGraphicColors>
+		</li>
+	</value>
+</Operation>
+
+</Patch>

@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="BMT_DinoHideThin"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="BMT_DinoHideThin"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="BMT_DinoHideThin"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_TanningColor">
+			<baseColor>(100,100,100)</baseColor>
+			<weight>0.2</weight>
+		</li>
+	</value>
+</Operation>
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="BMT_DinoHideThin"]/colorGeneratorInTraderStock</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="BMT_DinoHideThin"]</xpath>
+		<value>
+			<colorGeneratorInTraderStock Class="ColorGenerator_Options">
+				<options>
+				<li>
+				  <weight>1</weight>
+				  <only>(103, 96, 76)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(82, 84, 50)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(83, 50, 52)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(178, 170, 150)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(150, 119, 84)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(133, 72, 62)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(158, 110, 84)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(83, 85, 116)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(108, 89, 68)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(200, 177, 151)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(171, 152, 115)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(140, 148, 107)</only>
+				</li>
+				</options>
+			</colorGeneratorInTraderStock>
+		</value>
+	</nomatch>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="BMT_DinoHideMedium"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="BMT_DinoHideMedium"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="BMT_DinoHideMedium"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_TanningColor">
+			<baseColor>(100,100,100)</baseColor>
+			<weight>0.2</weight>
+		</li>
+	</value>
+</Operation>
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="BMT_DinoHideMedium"]/colorGeneratorInTraderStock</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="BMT_DinoHideMedium"]</xpath>
+		<value>
+			<colorGeneratorInTraderStock Class="ColorGenerator_Options">
+				<options>
+				<li>
+				  <weight>1</weight>
+				  <only>(166,150,139)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(89,89,85)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(142,143,126)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(76,71,84)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(122,136,91)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(125,103,86)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(130,95,82)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(106,98,78)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(122,131,136)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(180,162,123)</only>
+				</li>
+				</options>
+			</colorGeneratorInTraderStock>
+		</value>
+	</nomatch>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="BMT_DinoHideHeavy"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="BMT_DinoHideHeavy"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="BMT_DinoHideHeavy"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_TanningColor">
+			<baseColor>(100,100,100)</baseColor>
+			<weight>0.2</weight>
+		</li>
+	</value>
+</Operation>
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="BMT_DinoHideHeavy"]/colorGeneratorInTraderStock</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="BMT_DinoHideHeavy"]</xpath>
+		<value>
+			<colorGeneratorInTraderStock Class="ColorGenerator_Options">
+				<options>
+				<li>
+				  <weight>1</weight>
+				  <only>(70, 74, 81)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(97, 87, 78)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(166, 129, 99)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(131, 122, 140)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(108, 118, 74)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(89, 100, 116)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(108, 106, 99)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(153, 141, 114)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(125, 78, 60)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(121, 66, 83)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(108, 115, 98)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(162, 162, 1661)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(106, 94, 78)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(71, 58, 50)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(105, 80, 74)</only>
+				</li>
+				</options>
+			</colorGeneratorInTraderStock>
+		</value>
+	</nomatch>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="BMT_DinoHideArmored"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="BMT_DinoHideArmored"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="BMT_DinoHideArmored"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_TanningColor">
+			<baseColor>(100,100,100)</baseColor>
+			<weight>0.1</weight>
+		</li>
+	</value>
+</Operation>
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="BMT_DinoHideArmored"]/colorGeneratorInTraderStock</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="BMT_DinoHideArmored"]</xpath>
+		<value>
+			<colorGeneratorInTraderStock Class="ColorGenerator_Options">
+				<options>
+				<li>
+				  <weight>1</weight>
+				  <only>(87, 62, 58)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(68, 66, 74)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(95, 59, 49)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(124, 120, 75)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(70, 74, 120)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(24, 135, 74)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(85, 81, 10)</only>
+				</li>
+				</options>
+			</colorGeneratorInTraderStock>
+		</value>
+	</nomatch>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="BMT_DinoHideChromatic"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="BMT_DinoHideChromatic"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="BMT_DinoHideChromatic"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_TanningColor">
+			<baseColor>(100,100,100)</baseColor>
+			<weight>0.1</weight>
+		</li>
+	</value>
+</Operation>
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="BMT_DinoHideChromatic"]/colorGeneratorInTraderStock</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="BMT_DinoHideChromatic"]</xpath>
+		<value>
+			<colorGeneratorInTraderStock Class="ColorGenerator_Options">
+				<options>
+				<li>
+				  <weight>1</weight>
+				  <only>(68, 132, 157)</only>
+				</li>
+				</options>
+			</colorGeneratorInTraderStock>
+		</value>
+	</nomatch>
+</Operation>
+	
+</Patch>

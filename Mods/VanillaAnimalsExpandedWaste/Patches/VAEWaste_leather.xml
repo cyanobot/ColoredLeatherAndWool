@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="VAEWaste_ToxicLeather"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="VAEWaste_ToxicLeather"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="VAEWaste_ToxicLeather"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_TanningColor">
+			<baseColor>(88,81,63)</baseColor>
+			<weight>0.6</weight>
+		</li>
+	</value>
+</Operation>
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="VAEWaste_ToxicLeather"]/colorGeneratorInTraderStock</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="VAEWaste_ToxicLeather"]</xpath>
+		<value>
+			<colorGeneratorInTraderStock Class="ColorGenerator_Options">
+				<options>
+				<li>
+				  <weight>1</weight>
+				  <only>(107, 97, 70)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(86, 85, 64)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(139, 125, 113)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(96, 82, 67)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(86, 85, 64)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(81, 66, 55)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(113, 97, 71)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(102, 98, 87)</only>
+				</li>
+				<li>
+				  <weight>1</weight>
+				  <only>(103, 76, 65)</only>
+				</li>
+				</options>
+			</colorGeneratorInTraderStock>
+		</value>
+	</nomatch>
+</Operation>
+
+</Patch>

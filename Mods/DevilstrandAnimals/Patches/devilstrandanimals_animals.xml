@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<!--generics-->
+
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[race/leatherDef="ATK_Leather_Devilhide"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(45,45,45)</color>
+		</li>
+	</value>
+</Operation>
+
+</Patch>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="BMT_Leather_GlacialPlain"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="BMT_Leather_GlacialPlain"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="BMT_Leather_GlacialPlain"]/comps</xpath>
+	<value>
+		<li>
+			<compClass>CompColorable</compClass>
+		</li>
+		<li Class="ColoredLeatherAndWool.CompProperties_TanningColor">
+			<baseColor>(160,200,230)</baseColor>
+			<weight>0.3</weight>
+		</li>
+	</value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="BMT_Leather_GlacialPlain"]</xpath>
+	<value>
+		<colorGeneratorInTraderStock Class="ColorGenerator_Options">	
+			<options>
+			<li>
+			  <weight>1</weight>
+			  <only>(191,203,212)</only>
+			</li>
+			</options>
+		</colorGeneratorInTraderStock>
+	</value>
+</Operation>
+
+</Patch>

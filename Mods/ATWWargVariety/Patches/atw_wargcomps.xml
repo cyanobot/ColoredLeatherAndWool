@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Warg"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Warg"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Warg"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<alternateGraphicColors>
+				<li>(250, 250, 250)</li>		<!--1-->
+				<li>(32, 25, 20)</li>			<!--2-->
+				<li>(150, 118, 94)</li>			<!--3-->
+				<li>(119, 108, 98)</li>			<!--DarkSpot-->
+				<li>(119, 108, 98)</li>			<!--DarkSpot-->
+				<li>(119, 108, 98)</li>			<!--DarkSpot-->
+				<li>(119, 108, 98)</li>			<!--DarkSpot-->
+				<li>(119, 108, 98)</li>			<!--DarkSpot-->
+				<li>(119, 108, 98)</li>			<!--DarkSpot-->
+				<li>(119, 108, 98)</li>			<!--DarkSpot-->
+				<li>(119, 108, 98)</li>			<!--DarkSpot-->
+				<li>(119, 108, 98)</li>			<!--DarkSpot-->
+				<li>(119, 108, 98)</li>			<!--DarkSpot-->
+				<li>(119, 108, 98)</li>			<!--DarkSpot-->
+				<li>(205, 200, 197))</li>		<!--DarkSpotSable-->
+				<li>(205, 200, 197))</li>		<!--DarkSpotSable-->
+				<li>(205, 200, 197))</li>		<!--DarkSpotSable-->
+				<li>(205, 200, 197))</li>		<!--DarkSpotSable-->
+				<li>(205, 200, 197))</li>		<!--DarkSpotSable-->
+				<li>(205, 200, 197))</li>		<!--DarkSpotSable-->
+				<li>(205, 200, 197))</li>		<!--DarkSpotSable-->
+				<li>(205, 200, 197))</li>		<!--DarkSpotSable-->
+				<li>(205, 200, 197))</li>		<!--DarkSpotSable-->
+				<li>(205, 200, 197))</li>		<!--DarkSpotSable-->
+				<li>(205, 200, 197))</li>		<!--DarkSpotSable-->
+				<li>(205, 200, 197))</li>		<!--DarkSpotSable-->
+				<li>(255, 255, 255)</li>		<!--WargP-->
+				<li>(255, 255, 255)</li>		<!--WargP-->
+				<li>(255, 255, 255)</li>		<!--WargP-->
+				<li>(255, 255, 255)</li>		<!--WargP-->
+				<li>(255, 255, 255)</li>		<!--WargP-->
+				<li>(255, 255, 255)</li>		<!--WargP-->
+				<li>(255, 255, 255)</li>		<!--WargP-->
+				<li>(255, 255, 255)</li>		<!--WargP-->
+				<li>(255, 255, 255)</li>		<!--WargP-->
+				<li>(255, 255, 255)</li>		<!--WargP-->
+				<li>(255, 255, 255)</li>		<!--WargP-->
+				<li>(255, 255, 255)</li>		<!--WargP-->
+				<li>(255, 255, 255)</li>		<!--WargP-->
+				<li>(207, 203, 200)</li>		<!--WargS-->
+				<li>(207, 203, 200)</li>		<!--WargS-->
+				<li>(207, 203, 200)</li>		<!--WargS-->
+				<li>(207, 203, 200)</li>		<!--WargS-->
+				<li>(207, 203, 200)</li>		<!--WargS-->
+				<li>(207, 203, 200)</li>		<!--WargS-->
+				<li>(207, 203, 200)</li>		<!--WargS-->
+				<li>(207, 203, 200)</li>		<!--WargS-->
+				<li>(207, 203, 200)</li>		<!--WargS-->
+				<li>(207, 203, 200)</li>		<!--WargS-->
+				<li>(207, 203, 200)</li>		<!--WargS-->
+				<li>(207, 203, 200)</li>		<!--WargS-->
+				<li>(255, 255, 255)</li>		<!--SableBlack-->
+				<li>(255, 255, 255)</li>		<!--SableBlack-->
+				<li>(255, 255, 255)</li>		<!--SableBlack-->
+				<li>(255, 255, 255)</li>		<!--SableBlack-->
+				<li>(255, 255, 255)</li>		<!--SableBlack-->
+				<li>(255, 255, 255)</li>		<!--SableBlack-->
+				<li>(255, 255, 255)</li>		<!--SableBlack-->
+				<li>(255, 255, 255)</li>		<!--SableBlack-->
+				<li>(255, 255, 255)</li>		<!--SableBlack-->
+				<li>(255, 255, 255)</li>		<!--SableBlack-->
+				<li>(255, 255, 255)</li>		<!--SableBlack-->
+				<li>(255, 255, 255)</li>		<!--SableBlack2-->
+				<li>(255, 255, 255)</li>		<!--SableBlack2-->
+				<li>(255, 255, 255)</li>		<!--SableBlack2-->
+				<li>(255, 255, 255)</li>		<!--SableBlack2-->
+				<li>(255, 255, 255)</li>		<!--SableBlack2-->
+				<li>(255, 255, 255)</li>		<!--SableBlack2-->
+				<li>(255, 255, 255)</li>		<!--SableBlack2-->
+				<li>(255, 255, 255)</li>		<!--SableBlack2-->
+				<li>(255, 255, 255)</li>		<!--SableBlack2-->
+				<li>(255, 255, 255)</li>		<!--SableBlack2-->
+				<li>(255, 255, 255)</li>		<!--SableBlack2-->
+				<li>(255, 255, 255)</li>		<!--SableBlack2-->
+				<li>(255, 255, 255)</li>		<!--SableBlack2-->
+				<li>(193, 188, 184)</li>		<!--Spot-->
+				<li>(193, 188, 184)</li>		<!--Spot-->
+				<li>(193, 188, 184)</li>		<!--Spot-->
+				<li>(193, 188, 184)</li>		<!--Spot-->
+				<li>(193, 188, 184)</li>		<!--Spot-->
+				<li>(193, 188, 184)</li>		<!--Spot-->
+				<li>(193, 188, 184)</li>		<!--Spot-->
+				<li>(193, 188, 184)</li>		<!--Spot-->
+				<li>(193, 188, 184)</li>		<!--Spot-->
+				<li>(193, 188, 184)</li>		<!--Spot-->
+				<li>(193, 188, 184)</li>		<!--Spot-->
+				<li>(193, 188, 184)</li>		<!--Spot-->
+				<li>(252, 251, 251)</li>		<!--SpotSable-->
+				<li>(252, 251, 251)</li>		<!--SpotSable-->
+				<li>(252, 251, 251)</li>		<!--SpotSable-->
+				<li>(252, 251, 251)</li>		<!--SpotSable-->
+				<li>(252, 251, 251)</li>		<!--SpotSable-->
+				<li>(252, 251, 251)</li>		<!--SpotSable-->
+				<li>(252, 251, 251)</li>		<!--SpotSable-->
+				<li>(252, 251, 251)</li>		<!--SpotSable-->
+				<li>(252, 251, 251)</li>		<!--SpotSable-->
+				<li>(252, 251, 251)</li>		<!--SpotSable-->
+				<li>(252, 251, 251)</li>		<!--SpotSable-->
+				<li>(252, 251, 251)</li>		<!--SpotSable-->
+				<li>(252, 251, 251)</li>		<!--SpotSable-->
+				<li>(157, 154, 152)</li>		<!--Stripe-->
+				<li>(157, 154, 152)</li>		<!--Stripe-->
+				<li>(157, 154, 152)</li>		<!--Stripe-->
+				<li>(157, 154, 152)</li>		<!--Stripe-->
+				<li>(157, 154, 152)</li>		<!--Stripe-->
+				<li>(157, 154, 152)</li>		<!--Stripe-->
+				<li>(157, 154, 152)</li>		<!--Stripe-->
+				<li>(157, 154, 152)</li>		<!--Stripe-->
+				<li>(157, 154, 152)</li>		<!--Stripe-->
+				<li>(157, 154, 152)</li>		<!--Stripe-->
+				<li>(157, 154, 152)</li>		<!--Stripe-->
+				<li>(157, 154, 152)</li>		<!--Stripe-->
+				<li>(248, 248, 248)</li>		<!--StripeSable-->
+				<li>(248, 248, 248)</li>		<!--StripeSable-->
+				<li>(248, 248, 248)</li>		<!--StripeSable-->
+				<li>(248, 248, 248)</li>		<!--StripeSable-->
+				<li>(248, 248, 248)</li>		<!--StripeSable-->
+				<li>(248, 248, 248)</li>		<!--StripeSable-->
+				<li>(248, 248, 248)</li>		<!--StripeSable-->
+				<li>(248, 248, 248)</li>		<!--StripeSable-->
+				<li>(248, 248, 248)</li>		<!--StripeSable-->
+				<li>(248, 248, 248)</li>		<!--StripeSable-->
+				<li>(248, 248, 248)</li>		<!--StripeSable-->
+				<li>(248, 248, 248)</li>		<!--StripeSable-->
+				<li>(255, 255, 255)</li>		<!--T-->
+				<li>(255, 255, 255)</li>		<!--T-->
+				<li>(255, 255, 255)</li>		<!--T-->
+				<li>(255, 255, 255)</li>		<!--T-->
+				<li>(255, 255, 255)</li>		<!--T-->
+				<li>(255, 255, 255)</li>		<!--T-->
+				<li>(255, 255, 255)</li>		<!--T-->
+				<li>(255, 255, 255)</li>		<!--T-->
+				<li>(255, 255, 255)</li>		<!--T-->
+				<li>(255, 255, 255)</li>		<!--T-->
+				<li>(255, 255, 255)</li>		<!--T-->
+				<li>(255, 255, 255)</li>		<!--T-->
+				<li>(255, 255, 255)</li>		<!--T-->
+				<li>(255, 255, 255)</li>		<!--W-->
+				<li>(255, 255, 255)</li>		<!--W-->
+				<li>(255, 255, 255)</li>		<!--W-->
+				<li>(255, 255, 255)</li>		<!--W-->
+				<li>(255, 255, 255)</li>		<!--W-->
+				<li>(255, 255, 255)</li>		<!--W-->
+				<li>(255, 255, 255)</li>		<!--W-->
+				<li>(255, 255, 255)</li>		<!--W-->
+				<li>(255, 255, 255)</li>		<!--W-->
+				<li>(255, 255, 255)</li>		<!--W-->
+				<li>(255, 255, 255)</li>		<!--W-->
+				<li>(255, 255, 255)</li>		<!--W-->
+				<li>(255, 255, 255)</li>		<!--W-->
+			</alternateGraphicColors>
+		</li>
+	</value>
+</Operation>
+
+</Patch>

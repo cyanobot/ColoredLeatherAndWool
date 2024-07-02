@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Wolf_Timber"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Wolf_Timber"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation  Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Wolf_Timber"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(109, 105, 102)</color>
+			<alternateGraphicColors>
+				<li>(109, 105, 102)</li>
+				<li>(44, 44, 44)</li>
+				<li>(143, 142, 141)</li>
+				<li>(108, 73, 52)</li>
+			</alternateGraphicColors>
+		</li>
+	</value>
+</Operation>
+
+</Patch>

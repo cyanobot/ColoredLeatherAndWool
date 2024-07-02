@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[@Name="BiomesCore_ChitinBase"]/modExtensions</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="BiomesCore_ChitinBase"]</xpath>
+		<value>
+			<modExtensions/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[@Name="BiomesCore_ChitinBase"]/modExtensions</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.DefModExtension_ReceivesAnimalColor"/>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="BMT_Leather_Gastropoda"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="BMT_Leather_Gastropoda"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="BMT_Leather_Gastropoda"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_TanningColor">
+			<baseColor>(100,100,100)</baseColor>
+			<weight>0.8</weight>
+		</li>
+	</value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="BMT_Leather_Gastropoda"]</xpath>
+	<value>
+		<colorGeneratorInTraderStock Class="ColorGenerator_Options">	
+			<options>
+			<li>
+			  <weight>1</weight>
+			  <only>(112,114,97)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(104,93,100)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(96,96,96)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(111,110,104)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(110,122,122)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(105,118,120)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(111,98,98)</only>
+			</li>
+			</options>
+		</colorGeneratorInTraderStock>
+	</value>
+</Operation>
+
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="BMT_Leather_Amphibian"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="BMT_Leather_Amphibian"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="BMT_Leather_Amphibian"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_TanningColor">
+			<baseColor>(100,100,100)</baseColor>
+			<weight>0.3</weight>
+		</li>
+	</value>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="BMT_Leather_Amphibian"]</xpath>
+	<value>
+		<colorGeneratorInTraderStock Class="ColorGenerator_Options">	
+			<options>
+			<li>
+			  <weight>1</weight>
+			  <only>(86,86,86)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(164,90,76)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(153,152,153)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(167,146,110)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(206,197,196)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(122,104,88)</only>
+			</li>
+			</options>
+		</colorGeneratorInTraderStock>
+	</value>
+</Operation>
+
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="BMT_ToughLeather"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="BMT_ToughLeather"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="BMT_ToughLeather"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_TanningColor">
+			<baseColor>(150,150,150)</baseColor>
+			<weight>0.3</weight>
+		</li>
+	</value>
+</Operation>
+<!--
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="BMT_ToughLeather"]</xpath>
+	<value>
+		<colorGeneratorInTraderStock Class="ColorGenerator_Options">	
+			<options>
+			<li>
+			  <weight>1</weight>
+			  <only>(86,86,86)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(164,90,76)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(153,152,153)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(167,146,110)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(206,197,196)</only>
+			</li>
+			<li>
+			  <weight>1</weight>
+			  <only>(122,104,88)</only>
+			</li>
+			</options>
+		</colorGeneratorInTraderStock>
+	</value>
+</Operation>
+-->
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="BiomesIslands_Leather_Sharkskin"]</xpath>
+	<match Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="BiomesIslands_Leather_Sharkskin"]/comps</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="BiomesIslands_Leather_Sharkskin"]</xpath>
+					<value>
+						<comps/>
+					</value>
+				</nomatch>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="BiomesIslands_Leather_Sharkskin"]/comps</xpath>
+				<value>
+					<li Class="ColoredLeatherAndWool.CompProperties_TanningColor">
+						<baseColor>(100,100,120)</baseColor>
+						<weight>0.6</weight>
+					</li>
+				</value>
+			</li>
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="BiomesIslands_Leather_Sharkskin"]/colorGeneratorInTraderStock</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="BiomesIslands_Leather_Sharkskin"]</xpath>
+					<value>
+						<colorGeneratorInTraderStock Class="ColorGenerator_Options">
+							<options>
+							<li>
+							  <weight>1</weight>
+							  <only>(93, 100, 117)</only>
+							</li>
+							<li>
+							  <weight>1</weight>
+							  <only>(107, 105, 119)</only>
+							</li>
+							<li>
+							  <weight>1</weight>
+							  <only>(84, 85, 100)</only>
+							</li>
+							</options>
+						</colorGeneratorInTraderStock>
+					</value>
+				</nomatch>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="BiomesIslands_Leather_Fishskin"]</xpath>
+	<match Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="BiomesIslands_Leather_Fishskin"]/comps</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="BiomesIslands_Leather_Fishskin"]</xpath>
+					<value>
+						<comps/>
+					</value>
+				</nomatch>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="BiomesIslands_Leather_Fishskin"]/comps</xpath>
+				<value>
+					<li Class="ColoredLeatherAndWool.CompProperties_TanningColor">
+						<baseColor>(100,100,120)</baseColor>
+						<weight>0.4</weight>
+					</li>
+				</value>
+			</li>
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="BiomesIslands_Leather_Fishskin"]/colorGeneratorInTraderStock</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="BiomesIslands_Leather_Fishskin"]</xpath>
+					<value>
+						<colorGeneratorInTraderStock Class="ColorGenerator_Options">
+							<options>
+							<li>
+							  <weight>1</weight>
+							  <only>(92, 86, 76)</only>
+							</li>
+							<li>
+							  <weight>1</weight>
+							  <only>(104, 143, 164)</only>
+							</li>
+							<li>
+							  <weight>1</weight>
+							  <only>(67, 65, 79)</only>
+							</li>
+							<li>
+							  <weight>1</weight>
+							  <only>(135, 81, 84)</only>
+							</li>
+							<li>
+							  <weight>1</weight>
+							  <only>(170, 170, 178)</only>
+							</li>
+							</options>
+						</colorGeneratorInTraderStock>
+					</value>
+				</nomatch>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="BiomesIslands_Leather_Whaleskin"]</xpath>
+	<match Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="BiomesIslands_Leather_Whaleskin"]/comps</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="BiomesIslands_Leather_Whaleskin"]</xpath>
+					<value>
+						<comps/>
+					</value>
+				</nomatch>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="BiomesIslands_Leather_Whaleskin"]/comps</xpath>
+				<value>
+					<li Class="ColoredLeatherAndWool.CompProperties_TanningColor">
+						<baseColor>(100,100,100)</baseColor>
+						<weight>0.5</weight>
+					</li>
+				</value>
+			</li>
+		</operations>
+	</match>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="BiomesIslands_Leather_Pinnipedskin"]</xpath>
+	<match Class="PatchOperationSequence">
+		<operations>
+			<!--
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="BiomesIslands_Leather_Pinnipedskin"]/comps</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="BiomesIslands_Leather_Pinnipedskin"]</xpath>
+					<value>
+						<comps/>
+					</value>
+				</nomatch>
+			</li>
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="BiomesIslands_Leather_Pinnipedskin"]/colorGeneratorInTraderStock</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="BiomesIslands_Leather_Pinnipedskin"]</xpath>
+					<value>
+						<colorGeneratorInTraderStock Class="ColorGenerator_Options">
+							<options>
+							<li>
+							  <weight>1</weight>
+							  <only>(92, 86, 76)</only>
+							</li>
+							</options>
+						</colorGeneratorInTraderStock>
+					</value>
+				</nomatch>
+			</li>
+			-->
+		</operations>
+	</match>
+</Operation>
+
+
+</Patch>
