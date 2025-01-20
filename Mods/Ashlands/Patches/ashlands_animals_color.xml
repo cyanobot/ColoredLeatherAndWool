@@ -1,0 +1,516 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationFindMod">
+	<mods>
+		<li>Biotech</li>
+	</mods>
+	<match Class="PatchOperationSequence">
+		<operations>
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="Mashed_Ashlands_AshHopperGlowing"]/comps</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Mashed_Ashlands_AshHopperGlowing"]</xpath>
+					<value>
+						<comps/>
+					</value>
+				</nomatch>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mashed_Ashlands_AshHopperGlowing"]/comps</xpath>
+				<value>
+					<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+						<color>(112, 106, 99)</color>
+					</li>
+				</value>
+			</li>
+			
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="Mashed_Ashlands_MudcrabGlowing"]/comps</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Mashed_Ashlands_MudcrabGlowing"]</xpath>
+					<value>
+						<comps/>
+					</value>
+				</nomatch>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mashed_Ashlands_MudcrabGlowing"]/comps</xpath>
+				<value>
+					<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+						<color>(130, 119, 98)</color>
+					</li>
+				</value>
+			</li>
+
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="Mashed_Ashlands_NetchGlowing"]/comps</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Mashed_Ashlands_NetchGlowing"]</xpath>
+					<value>
+						<comps/>
+					</value>
+				</nomatch>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mashed_Ashlands_NetchGlowing"]/comps</xpath>
+				<value>
+					<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+						<color>(103, 162, 82)</color>
+						<colorMale>(161, 136, 122)</colorMale>
+					</li>
+				</value>
+			</li>
+
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="Mashed_Ashlands_NixHoundGlowing"]/comps</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Mashed_Ashlands_NixHoundGlowing"]</xpath>
+					<value>
+						<comps/>
+					</value>
+				</nomatch>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mashed_Ashlands_NixHoundGlowing"]/comps</xpath>
+				<value>
+					<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+						<color>(113, 113, 104)</color>
+					</li>
+				</value>
+			</li>
+
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="Mashed_Ashlands_NixOxGlowing"]/comps</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Mashed_Ashlands_NixOxGlowing"]</xpath>
+					<value>
+						<comps/>
+					</value>
+				</nomatch>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mashed_Ashlands_NixOxGlowing"]/comps</xpath>
+				<value>
+					<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+						<color>(65, 59, 49)</color>
+					</li>
+				</value>
+			</li>
+
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="Mashed_Ashlands_ShalkGlowing"]/comps</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Mashed_Ashlands_ShalkGlowing"]</xpath>
+					<value>
+						<comps/>
+					</value>
+				</nomatch>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mashed_Ashlands_ShalkGlowing"]/comps</xpath>
+				<value>
+					<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+						<color>(98, 95, 86)</color>
+					</li>
+				</value>
+			</li>
+
+			<li Class="PatchOperationConditional">
+				<xpath>Defs/ThingDef[defName="Mashed_Ashlands_Toxbug"]/comps</xpath>
+				<nomatch Class="PatchOperationAdd">
+					<xpath>Defs/ThingDef[defName="Mashed_Ashlands_Toxbug"]</xpath>
+					<value>
+						<comps/>
+					</value>
+				</nomatch>
+			</li>
+			<li Class="PatchOperationAdd">
+				<xpath>Defs/ThingDef[defName="Mashed_Ashlands_Toxbug"]/comps</xpath>
+				<value>
+					<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+						<color>(103, 116, 98)</color>
+					</li>
+				</value>
+			</li>
+		
+		</operations>
+	</match>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Mashed_Ashlands_Alit"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Mashed_Ashlands_Alit"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Mashed_Ashlands_Alit"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(132, 122, 108)</color>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Mashed_Ashlands_AshHopper"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Mashed_Ashlands_AshHopper"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Mashed_Ashlands_AshHopper"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(108, 91, 76)</color>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Mashed_Ashlands_CliffRacer"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Mashed_Ashlands_CliffRacer"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Mashed_Ashlands_CliffRacer"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(78, 84, 75)</color>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Mashed_Ashlands_Daedroth"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Mashed_Ashlands_Daedroth"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Mashed_Ashlands_Daedroth"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(67, 74, 68)</color>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Mashed_Ashlands_Durzog"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Mashed_Ashlands_Durzog"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Mashed_Ashlands_Durzog"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(131, 142, 110)</color>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Mashed_Ashlands_Kagouti"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Mashed_Ashlands_Kagouti"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Mashed_Ashlands_Kagouti"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(131, 142, 110)</color>
+			<colorMale>(83, 75, 68)</colorMale>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Mashed_Ashlands_KwamaForager"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Mashed_Ashlands_KwamaForager"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Mashed_Ashlands_KwamaForager"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(139, 110, 77)</color>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Mashed_Ashlands_KwamaScrib"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Mashed_Ashlands_KwamaScrib"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Mashed_Ashlands_KwamaScrib"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(174, 167, 173)</color>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Mashed_Ashlands_Mudcrab"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Mashed_Ashlands_Mudcrab"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Mashed_Ashlands_Mudcrab"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(100, 89, 65)</color>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Mashed_Ashlands_Netch"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Mashed_Ashlands_Netch"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Mashed_Ashlands_Netch"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(65, 90, 121)</color>
+			<colorMale>(148, 125, 112)</colorMale>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Mashed_Ashlands_NixOx"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Mashed_Ashlands_NixOx"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Mashed_Ashlands_NixOx"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(94, 85, 71)</color>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Mashed_Ashlands_Ogrim"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Mashed_Ashlands_Ogrim"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Mashed_Ashlands_Ogrim"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(94, 96, 57)</color>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Mashed_Ashlands_Pyrantula"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Mashed_Ashlands_Pyrantula"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Mashed_Ashlands_Pyrantula"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(223, 165, 56)</color>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Mashed_Ashlands_Rachnoid"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Mashed_Ashlands_Rachnoid"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Mashed_Ashlands_Rachnoid"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(220, 208, 174)</color>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Mashed_Ashlands_Scamp"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Mashed_Ashlands_Scamp"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Mashed_Ashlands_Scamp"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(140, 133, 114)</color>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Mashed_Ashlands_Shalk"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Mashed_Ashlands_Shalk"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Mashed_Ashlands_Shalk"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(67, 61, 70)</color>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Mashed_Ashlands_ShalkFungal"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Mashed_Ashlands_ShalkFungal"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Mashed_Ashlands_ShalkFungal"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(65, 58, 58)</color>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Mashed_Ashlands_Firebug"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Mashed_Ashlands_Firebug"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Mashed_Ashlands_Firebug"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(105, 66, 60)</color>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Mashed_Ashlands_SiltStrider"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Mashed_Ashlands_SiltStrider"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Mashed_Ashlands_SiltStrider"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(135, 119, 88)</color>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Mashed_Ashlands_Vvardvark"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Mashed_Ashlands_Vvardvark"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Mashed_Ashlands_Vvardvark"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(255, 255, 255)</color>
+			<alternateGraphicColors>		<!--almost all the colors are by draw color-->
+				<li>(255, 255, 255)</li>
+				<li>(255, 255, 255)</li>
+				<li>(255, 255, 255)</li>
+				<li>(255, 255, 255)</li>
+				<li>(255, 255, 255)</li>
+				<li>(255, 255, 255)</li>
+				<li>(255, 255, 255)</li>
+				<li>(255, 255, 255)</li>
+				<li>(255, 255, 255)</li>
+				<li>(28, 29, 28)</li>	<!-- Tortie -->
+			</alternateGraphicColors>
+		</li>
+	</value>
+</Operation>
+
+
+</Patch>

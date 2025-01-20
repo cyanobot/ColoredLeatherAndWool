@@ -8,6 +8,8 @@ using UnityEngine;
 using Verse;
 using RimWorld;
 using HarmonyLib;
+using static ColoredLeatherAndWool.Settings;
+using static ColoredLeatherAndWool.Main;
 
 namespace ColoredLeatherAndWool
 {
@@ -15,10 +17,11 @@ namespace ColoredLeatherAndWool
     {
         public static Color GetPawnColor(Pawn pawn, bool useHairColor = false)
         {
+            LogUtil.DebugLog("GetPawnColor - pawn: " + pawn + ", comps: " + pawn.AllComps.ToStringSafeEnumerable());
             CompLeatherColor comp = pawn.GetComp<CompLeatherColor>();
             if (comp != null)
             {
-                //Log.Message("HasComp(CompLeatherColor)");
+                LogUtil.DebugLog("HasComp(CompLeatherColor)");
                 return comp.GetColor();
             }
 
@@ -30,13 +33,29 @@ namespace ColoredLeatherAndWool
                 else color = pawn.story?.SkinColor ?? Color.white;
                 if (color != Color.white)
                 {
-                    //Log.Message("Returning SkinColor");
+                    LogUtil.DebugLog("Returning SkinColor");
                     return color;
                 }
             }
             
             return pawn.Drawer.renderer.BodyGraphic.Color;
-            //Log.Message("nakedGraphic.Color: " + color);
+            LogUtil.DebugLog("nakedGraphic.Color: " + color);
+        }
+
+        public static bool UseTannedColor()
+        {
+            return tannedColors && !CLOLoaded;
+        }
+
+        public static bool UseTannedColor(Thing thing, out CompTanningColor compTanningColor)
+        {
+            compTanningColor = null;
+            if (!UseTannedColor()) return false;
+
+            compTanningColor = thing.TryGetComp<CompTanningColor>();
+            if (compTanningColor == null) return false;
+
+            else return true;
         }
 
         public static Color WeightedColorBlend(Color color1, Color color2, float weight)
@@ -66,6 +85,19 @@ namespace ColoredLeatherAndWool
             alpha = Mathf.Clamp01(alpha);
 
             return new Color(red, green, blue, alpha);
+        }
+
+        public static Color ButcherColorFor(Thing thing, Pawn pawn)
+        {
+            Color pawnColor = GetPawnColor(pawn);
+            if (UseTannedColor(thing, out CompTanningColor compTanningColor))
+            {
+                return ColorUtility.WeightedColorBlend(pawnColor, compTanningColor.BaseColor, compTanningColor.Weight);
+            }
+            else
+            {
+                return pawnColor;
+            }
         }
     }
 }

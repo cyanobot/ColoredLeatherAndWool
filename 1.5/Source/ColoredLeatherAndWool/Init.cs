@@ -19,22 +19,23 @@ namespace ColoredLeatherAndWool
         {
             //Main.ApplySettings();
 
+            /*
             if (LoadedModManager.RunningModsListForReading.Any(x => x.PackageId == "sarg.alphaanimals"))
                 AALoaded = true;
 
             if (LoadedModManager.RunningModsListForReading.Any(x => x.PackageId == "biotexpans.core"))
                 BTELoaded = true;
 
-            /*
             if (LoadedModManager.RunningModsListForReading.Any(x => x.PackageId == "doctorstupid.prettyskin"))
                 humanButcheryLoaded = true;
+            
             */
 
             //Log.Message("AALoaded: " + AALoaded);
 
-            var harmony = new Harmony("cyanobot.ColoredLeatherAndWool");
+            //var harmony = new Harmony("cyanobot.ColoredLeatherAndWool");
 
-            harmony.PatchAll();
+            //Main.harmony.PatchAll();
         }
     }
 }

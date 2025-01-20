@@ -15,13 +15,26 @@ namespace ColoredLeatherAndWool
     {
         public static bool AALoaded = false;
         public static bool BTELoaded = false;
+        public static bool BWPLoaded = false;
+        public static bool CLOLoaded = false;
         //public static bool humanButcheryLoaded = false;
 
         public static bool logSetColorFailures = true;
 
+        public static Harmony harmony;
+
         public Main(ModContentPack mcp) : base(mcp)
         {
+            AALoaded = ModsConfig.IsActive("sarg.alphaanimals");
+            BTELoaded = ModsConfig.IsActive("biotexpans.core");
+            BWPLoaded = ModsConfig.IsActive("divineDerivative.AutoWool");
+            CLOLoaded = ModsConfig.IsActive("cyanobot.leatheroverhaul");
+
+            harmony = new Harmony("cyanobot.ColoredLeatherAndWool");
+            
             GetSettings<Settings>();
+
+            harmony.PatchAll();
         }
 
         public override string SettingsCategory()

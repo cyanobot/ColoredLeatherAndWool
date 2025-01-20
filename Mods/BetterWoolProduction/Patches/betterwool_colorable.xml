@@ -35,6 +35,23 @@
 	<xpath>Defs/ThingDef[@Name="BWP_FleeceBase"]/modExtensions</xpath>
 	<value>
 		<li Class="ColoredLeatherAndWool.DefModExtension_ReceivesAnimalColor"/>
+		<li Class="ColoredLeatherAndWool.DefModExtension_ReceivesButcherColor"/>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[@Name="WoolBase"]/modExtensions</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="WoolBase"]</xpath>
+		<value>
+			<modExtensions/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[@Name="WoolBase"]/modExtensions</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.DefModExtension_ReceivesButcherColor"/>
 	</value>
 </Operation>
 

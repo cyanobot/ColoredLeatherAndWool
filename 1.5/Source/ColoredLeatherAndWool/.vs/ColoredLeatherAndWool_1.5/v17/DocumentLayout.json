@@ -1,0 +1,244 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ColoredLeatherAndWool\\1.5\\Source\\ColoredLeatherAndWool\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8A67B846-2C77-4E5B-8EFE-23A2F0F1E343}|ColoredLeatherAndWool.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ColoredLeatherAndWool\\1.5\\Source\\ColoredLeatherAndWool\\colorutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A67B846-2C77-4E5B-8EFE-23A2F0F1E343}|ColoredLeatherAndWool.csproj|solutionrelative:colorutility.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A67B846-2C77-4E5B-8EFE-23A2F0F1E343}|ColoredLeatherAndWool.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\coloredleatherandwool\\1.5\\source\\coloredleatherandwool\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A67B846-2C77-4E5B-8EFE-23A2F0F1E343}|ColoredLeatherAndWool.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A67B846-2C77-4E5B-8EFE-23A2F0F1E343}|ColoredLeatherAndWool.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ColoredLeatherAndWool\\1.5\\Source\\ColoredLeatherAndWool\\patch_butcherproducts_thing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A67B846-2C77-4E5B-8EFE-23A2F0F1E343}|ColoredLeatherAndWool.csproj|solutionrelative:patch_butcherproducts_thing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A67B846-2C77-4E5B-8EFE-23A2F0F1E343}|ColoredLeatherAndWool.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\coloredleatherandwool\\1.5\\source\\coloredleatherandwool\\patch_butcherproducts_pawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A67B846-2C77-4E5B-8EFE-23A2F0F1E343}|ColoredLeatherAndWool.csproj|solutionrelative:patch_butcherproducts_pawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A67B846-2C77-4E5B-8EFE-23A2F0F1E343}|ColoredLeatherAndWool.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\coloredleatherandwool\\1.5\\source\\coloredleatherandwool\\compcolornostack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A67B846-2C77-4E5B-8EFE-23A2F0F1E343}|ColoredLeatherAndWool.csproj|solutionrelative:compcolornostack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A67B846-2C77-4E5B-8EFE-23A2F0F1E343}|ColoredLeatherAndWool.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\coloredleatherandwool\\1.5\\source\\coloredleatherandwool\\comptanningcolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A67B846-2C77-4E5B-8EFE-23A2F0F1E343}|ColoredLeatherAndWool.csproj|solutionrelative:comptanningcolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A67B846-2C77-4E5B-8EFE-23A2F0F1E343}|ColoredLeatherAndWool.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ColoredLeatherAndWool\\1.5\\Source\\ColoredLeatherAndWool\\patch_makerecipeproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A67B846-2C77-4E5B-8EFE-23A2F0F1E343}|ColoredLeatherAndWool.csproj|solutionrelative:patch_makerecipeproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A67B846-2C77-4E5B-8EFE-23A2F0F1E343}|ColoredLeatherAndWool.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\coloredleatherandwool\\1.5\\source\\coloredleatherandwool\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A67B846-2C77-4E5B-8EFE-23A2F0F1E343}|ColoredLeatherAndWool.csproj|solutionrelative:settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A67B846-2C77-4E5B-8EFE-23A2F0F1E343}|ColoredLeatherAndWool.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\coloredleatherandwool\\1.5\\source\\coloredleatherandwool\\patch_mammalia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A67B846-2C77-4E5B-8EFE-23A2F0F1E343}|ColoredLeatherAndWool.csproj|solutionrelative:patch_mammalia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A67B846-2C77-4E5B-8EFE-23A2F0F1E343}|ColoredLeatherAndWool.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\coloredleatherandwool\\1.5\\source\\coloredleatherandwool\\patch_betterwoolproduction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A67B846-2C77-4E5B-8EFE-23A2F0F1E343}|ColoredLeatherAndWool.csproj|solutionrelative:patch_betterwoolproduction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A67B846-2C77-4E5B-8EFE-23A2F0F1E343}|ColoredLeatherAndWool.csproj|c:\\program files (x86)\\steam\\steamapps\\common\\rimworld\\mods\\coloredleatherandwool\\1.5\\source\\coloredleatherandwool\\init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A67B846-2C77-4E5B-8EFE-23A2F0F1E343}|ColoredLeatherAndWool.csproj|solutionrelative:init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A67B846-2C77-4E5B-8EFE-23A2F0F1E343}|ColoredLeatherAndWool.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ColoredLeatherAndWool\\1.5\\Source\\ColoredLeatherAndWool\\logutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A67B846-2C77-4E5B-8EFE-23A2F0F1E343}|ColoredLeatherAndWool.csproj|solutionrelative:logutil.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A67B846-2C77-4E5B-8EFE-23A2F0F1E343}|ColoredLeatherAndWool.csproj|C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ColoredLeatherAndWool\\1.5\\Source\\ColoredLeatherAndWool\\defmodextension_receivesbutchercolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A67B846-2C77-4E5B-8EFE-23A2F0F1E343}|ColoredLeatherAndWool.csproj|solutionrelative:defmodextension_receivesbutchercolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 178,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Patch_ButcherProducts_Pawn.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ColoredLeatherAndWool\\1.5\\Source\\ColoredLeatherAndWool\\Patch_ButcherProducts_Pawn.cs",
+              "RelativeDocumentMoniker": "Patch_ButcherProducts_Pawn.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ColoredLeatherAndWool\\1.5\\Source\\ColoredLeatherAndWool\\Patch_ButcherProducts_Pawn.cs",
+              "RelativeToolTip": "Patch_ButcherProducts_Pawn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T16:02:33.511Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ColoredLeatherAndWool\\1.5\\Source\\ColoredLeatherAndWool\\Main.cs",
+              "RelativeDocumentMoniker": "Main.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ColoredLeatherAndWool\\1.5\\Source\\ColoredLeatherAndWool\\Main.cs",
+              "RelativeToolTip": "Main.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T01:03:15.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CompColorNoStack.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ColoredLeatherAndWool\\1.5\\Source\\ColoredLeatherAndWool\\CompColorNoStack.cs",
+              "RelativeDocumentMoniker": "CompColorNoStack.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ColoredLeatherAndWool\\1.5\\Source\\ColoredLeatherAndWool\\CompColorNoStack.cs",
+              "RelativeToolTip": "CompColorNoStack.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAYwDMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-14T17:49:19.857Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Patch_ButcherProducts_Thing.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ColoredLeatherAndWool\\1.5\\Source\\ColoredLeatherAndWool\\Patch_ButcherProducts_Thing.cs",
+              "RelativeDocumentMoniker": "Patch_ButcherProducts_Thing.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ColoredLeatherAndWool\\1.5\\Source\\ColoredLeatherAndWool\\Patch_ButcherProducts_Thing.cs",
+              "RelativeToolTip": "Patch_ButcherProducts_Thing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T13:20:53.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ColorUtility.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ColoredLeatherAndWool\\1.5\\Source\\ColoredLeatherAndWool\\ColorUtility.cs",
+              "RelativeDocumentMoniker": "ColorUtility.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ColoredLeatherAndWool\\1.5\\Source\\ColoredLeatherAndWool\\ColorUtility.cs",
+              "RelativeToolTip": "ColorUtility.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAawC8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T13:23:06.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CompTanningColor.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ColoredLeatherAndWool\\1.5\\Source\\ColoredLeatherAndWool\\CompTanningColor.cs",
+              "RelativeDocumentMoniker": "CompTanningColor.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ColoredLeatherAndWool\\1.5\\Source\\ColoredLeatherAndWool\\CompTanningColor.cs",
+              "RelativeToolTip": "CompTanningColor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T12:20:59.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Settings.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ColoredLeatherAndWool\\1.5\\Source\\ColoredLeatherAndWool\\Settings.cs",
+              "RelativeDocumentMoniker": "Settings.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ColoredLeatherAndWool\\1.5\\Source\\ColoredLeatherAndWool\\Settings.cs",
+              "RelativeToolTip": "Settings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T12:04:22.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Patch_Mammalia.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ColoredLeatherAndWool\\1.5\\Source\\ColoredLeatherAndWool\\Patch_Mammalia.cs",
+              "RelativeDocumentMoniker": "Patch_Mammalia.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ColoredLeatherAndWool\\1.5\\Source\\ColoredLeatherAndWool\\Patch_Mammalia.cs",
+              "RelativeToolTip": "Patch_Mammalia.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T11:26:19.311Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Patch_MakeRecipeProducts.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ColoredLeatherAndWool\\1.5\\Source\\ColoredLeatherAndWool\\Patch_MakeRecipeProducts.cs",
+              "RelativeDocumentMoniker": "Patch_MakeRecipeProducts.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ColoredLeatherAndWool\\1.5\\Source\\ColoredLeatherAndWool\\Patch_MakeRecipeProducts.cs",
+              "RelativeToolTip": "Patch_MakeRecipeProducts.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAAwCsAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T13:20:52.645Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Patch_BetterWoolProduction.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ColoredLeatherAndWool\\1.5\\Source\\ColoredLeatherAndWool\\Patch_BetterWoolProduction.cs",
+              "RelativeDocumentMoniker": "Patch_BetterWoolProduction.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ColoredLeatherAndWool\\1.5\\Source\\ColoredLeatherAndWool\\Patch_BetterWoolProduction.cs",
+              "RelativeToolTip": "Patch_BetterWoolProduction.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAA3wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T11:26:15.774Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Init.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ColoredLeatherAndWool\\1.5\\Source\\ColoredLeatherAndWool\\Init.cs",
+              "RelativeDocumentMoniker": "Init.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ColoredLeatherAndWool\\1.5\\Source\\ColoredLeatherAndWool\\Init.cs",
+              "RelativeToolTip": "Init.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-20T11:26:07.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LogUtil.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ColoredLeatherAndWool\\1.5\\Source\\ColoredLeatherAndWool\\LogUtil.cs",
+              "RelativeDocumentMoniker": "LogUtil.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ColoredLeatherAndWool\\1.5\\Source\\ColoredLeatherAndWool\\LogUtil.cs",
+              "RelativeToolTip": "LogUtil.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T13:21:03.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DefModExtension_ReceivesButcherColor.cs",
+              "DocumentMoniker": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ColoredLeatherAndWool\\1.5\\Source\\ColoredLeatherAndWool\\DefModExtension_ReceivesButcherColor.cs",
+              "RelativeDocumentMoniker": "DefModExtension_ReceivesButcherColor.cs",
+              "ToolTip": "C:\\Program Files (x86)\\Steam\\steamapps\\common\\RimWorld\\Mods\\ColoredLeatherAndWool\\1.5\\Source\\ColoredLeatherAndWool\\DefModExtension_ReceivesButcherColor.cs",
+              "RelativeToolTip": "DefModExtension_ReceivesButcherColor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T13:20:46.525Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
