@@ -13,26 +13,6 @@ namespace ColoredLeatherAndWool
     [HarmonyPatch]
     public static class Patch_MakeRecipeProducts
     {
-        /*
-        public static bool Prepare()
-        {
-            Type t_GenRecipe = typeof(GenRecipe);
-            Type t_MakeRecipeProducts = t_GenRecipe.GetNestedTypes(BindingFlags.Static | BindingFlags.NonPublic)
-                .Where(t => t.Name.Contains("MakeRecipeProducts"))
-                .Single();
-            LogUtil.DebugLog("t_MakeRecipeProducts: " + t_MakeRecipeProducts);
-=
-      
-            foreach (MethodInfo method in t_MakeRecipeProducts.GetRuntimeMethods()) //(
-                //BindingFlags.Static | BindingFlags.NonPublic))
-            {
-                LogUtil.DebugLog("t_MakeRecipeProducts.method: " + method
-                    + ", found: " + method.Name.Contains("MoveNext"));
-            }
-            
-            return false;
-        }
-        */
 
         public static MethodBase TargetMethod()
         {

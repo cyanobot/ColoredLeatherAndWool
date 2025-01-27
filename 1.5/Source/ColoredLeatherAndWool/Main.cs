@@ -13,11 +13,12 @@ namespace ColoredLeatherAndWool
 {
     public class Main : Mod
     {
-        public static bool AALoaded = false;
-        public static bool BTELoaded = false;
-        public static bool BWPLoaded = false;
-        public static bool CLOLoaded = false;
-        //public static bool humanButcheryLoaded = false;
+        public static bool alphaAnimalsLoaded = false;
+        public static bool biotechExpansionLoaded = false;
+        public static bool betterWoolLoaded = false;
+        public static bool cyanobotsLeatherLoaded = false;
+        public static bool medievalOverhaulLoaded = false;
+        public static bool anyTanningLoaded = false;
 
         public static bool logSetColorFailures = true;
 
@@ -25,10 +26,13 @@ namespace ColoredLeatherAndWool
 
         public Main(ModContentPack mcp) : base(mcp)
         {
-            AALoaded = ModsConfig.IsActive("sarg.alphaanimals");
-            BTELoaded = ModsConfig.IsActive("biotexpans.core");
-            BWPLoaded = ModsConfig.IsActive("divineDerivative.AutoWool");
-            CLOLoaded = ModsConfig.IsActive("cyanobot.leatheroverhaul");
+            alphaAnimalsLoaded = ModsConfig.IsActive("sarg.alphaanimals");
+            biotechExpansionLoaded = ModsConfig.IsActive("biotexpans.core");
+            betterWoolLoaded = ModsConfig.IsActive("divineDerivative.AutoWool");
+            cyanobotsLeatherLoaded = ModsConfig.IsActive("cyanobot.leatheroverhaul");
+            medievalOverhaulLoaded = ModsConfig.IsActive("DankPyon.Medieval.Overhaul");
+
+            anyTanningLoaded = cyanobotsLeatherLoaded || medievalOverhaulLoaded;
 
             harmony = new Harmony("cyanobot.ColoredLeatherAndWool");
             

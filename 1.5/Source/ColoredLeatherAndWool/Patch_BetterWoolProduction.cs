@@ -17,7 +17,7 @@ namespace ColoredLeatherAndWool
     {
         static public bool Prepare()
         {
-            if (!BWPLoaded) return false;
+            if (!betterWoolLoaded) return false;
             return true;
         }
 
@@ -37,7 +37,7 @@ namespace ColoredLeatherAndWool
     {
         static public bool Prepare()
         {
-            if (!BWPLoaded) return false;
+            if (!betterWoolLoaded) return false;
             return true;
         }
 

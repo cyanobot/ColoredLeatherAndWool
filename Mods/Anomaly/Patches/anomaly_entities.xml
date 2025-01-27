@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Noctol"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(43, 43, 43)</color>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Gorehulk"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(251, 232, 191)</color>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Devourer"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(95, 91, 90)</color>
+		</li>
+	</value>
+</Operation>
+
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Chimera"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(94, 100, 99)</color>	<!--Chimera_A-->
+			<alternateGraphicColors>
+				<li>(91, 89, 106)</li>		<!--Chimera_D-->
+				<li>(129, 116, 101)</li>		<!--Chimera_C-->
+				<li>(101, 97, 87)</li>		<!--Chimera_B-->
+			</alternateGraphicColors>
+		</li>
+	</value>
+</Operation>
+
+</Patch>

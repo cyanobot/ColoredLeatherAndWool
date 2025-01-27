@@ -16,7 +16,7 @@ namespace ColoredLeatherAndWool
     {
         static public bool Prepare()
         {
-            if (!BTELoaded) return false;
+            if (!biotechExpansionLoaded) return false;
             return true;
         }
 

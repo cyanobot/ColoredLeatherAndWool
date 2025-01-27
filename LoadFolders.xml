@@ -37,9 +37,12 @@
     <li IfModActive="Erin.Valheim.Creatures">Mods/ErinValheimCreatures</li>
     <li IfModActive="Erin.Wildlife">Mods/ErinWildlife</li>
     <li IfModActive="Alfinalightmagefalling.fancyrats">Mods/FancyRats</li>
-	<li IfModActive="SirMashedPotato.Ashlands">Mods/Ashlands</li>
+	<li IfModActive="booleanne.horsebreedvariations">Mods/HorseBreeds</li>
+    <li IfModActive="DankPyon.Medieval.Overhaul">Mods/MedievalOverhaul</li>
     <li IfModActive="Spino.Megafauna">Mods/Megafauna</li>
     <li IfModActive="HidingFox.MoreFoxes">Mods/MoreFoxes</li>
+    <li IfModActive="Neronix17.Outland.Core">Mods/OutlandCore</li>
+    <li IfModActive="Neronix17.Outland.ToxicForest">Mods/OutlandToxicForest</li>
     <li IfModActive="ReGrowth.BOTR.Core">Mods/ReGrowthCore</li>
     <li IfModActive="ReGrowth.BOTR.BoilingForest">Mods/ReGrowthBoiling</li>
     <li IfModActive="ReGrowth.BOTR.ExtinctAnimalsPack">Mods/ReGrowthExtinct</li>
@@ -67,6 +70,7 @@
     <li IfModActive="VanillaExpanded.VTEXE">Mods/VanillaTexturesExpanded</li>
     <li IfModActive="purpleyam.colorfulcoats.spinomegafauna">Mods/ColorfulCoatsMegafauna</li>
 	<!--more animals-->
+    <li IfModActive="Ludeon.RimWorld.Anomaly">Mods/Anomaly</li>
     <li IfModActive="Ludeon.RimWorld.Biotech">Mods/Biotech</li>
     <li IfModActive="sarg.alphaanimals">Mods/AlphaAnimals</li>
     <li IfModActive="sarg.magicalmenagerie">Mods/AlphaMythology</li>
@@ -75,6 +79,7 @@
     <li IfModActive="BiomesTeam.BiomesCaverns">Mods/BiomesCaverns</li>
     <li IfModActive="BiomesTeam.BiomesIslands">Mods/BiomesIslands</li>
     <li IfModActive="BiomesTeam.Oasis">Mods/BiomesOasis</li>
+    <li IfModActive="BiomesTeam.BiomesPollutedLands">Mods/BiomesPolluted</li>
     <li IfModActive="BiomesTeam.BiomesPrehistoric">Mods/BiomesPrehistoric</li>
     <li IfModActive="Zeitloser.BirdsBeyond.TF">Mods/BirdsBeyondTemperate</li>
     <li IfModActive="Zeitloser.BirdsBeyond.TRF">Mods/BirdsBeyondTropical</li>
@@ -92,8 +97,12 @@
     <li IfModActive="Erin.Valheim.Creatures">Mods/ErinValheimCreatures</li>
     <li IfModActive="Erin.Wildlife">Mods/ErinWildlife</li>
     <li IfModActive="Alfinalightmagefalling.fancyrats">Mods/FancyRats</li>
+	<li IfModActive="booleanne.horsebreedvariations">Mods/HorseBreeds</li>
+    <li IfModActive="DankPyon.Medieval.Overhaul">Mods/MedievalOverhaul</li>
     <li IfModActive="Spino.Megafauna">Mods/Megafauna</li>
     <li IfModActive="HidingFox.MoreFoxes">Mods/MoreFoxes</li>
+    <li IfModActive="Neronix17.Outland.Core">Mods/OutlandCore</li>
+    <li IfModActive="Neronix17.Outland.ToxicForest">Mods/OutlandToxicForest</li>
     <li IfModActive="ReGrowth.BOTR.Core">Mods/ReGrowthCore</li>
     <li IfModActive="ReGrowth.BOTR.BoilingForest">Mods/ReGrowthBoiling</li>
     <li IfModActive="ReGrowth.BOTR.ExtinctAnimalsPack">Mods/ReGrowthExtinct</li>

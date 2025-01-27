@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+<Operation Class="PatchOperationConditional">
+	<xpath>Defs/ThingDef[defName="Horse"]/comps</xpath>
+	<nomatch Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="Horse"]</xpath>
+		<value>
+			<comps/>
+		</value>
+	</nomatch>
+</Operation>
+<Operation Class="PatchOperationAdd">
+	<xpath>Defs/ThingDef[defName="Horse"]/comps</xpath>
+	<value>
+		<li Class="ColoredLeatherAndWool.CompProperties_LeatherColor">
+			<color>(230, 230, 230)</color>
+			<alternateGraphicColors>
+				<li>(232, 216, 170)</li>	<!--buckskin-->
+				<li>(119, 84, 66)</li>		<!--silver bay-->
+				<li>(157, 101, 73)</li>		<!--arabian-->
+				<li>(215, 174, 121)</li>	<!--palomino-->
+				<li>(134, 121, 118)</li>	<!--grulla-->
+				<li>(73, 73, 73)</li>		<!--black-->
+				<li>(86, 63, 57)</li>		<!--dark bay-->
+				<li>(164, 114, 81)</li>		<!--bay-->
+				<li>(167, 105, 64)</li>		<!--chestnut-->
+				<li>(173, 142, 133)</li>	<!--red roan-->
+				<li>(194, 151, 106)</li>	<!--red dun-->
+				<li>(155, 155, 165)</li>	<!--blue roan-->
+				<li>(75, 75, 83)</li>		<!--silver black-->
+				<li>(155, 155, 155)</li>	<!--dapple  grey-->
+				<li>(109, 71, 61)</li>		<!--brown 1-->
+				<li>(131, 96, 70)</li>		<!--brown 2-->
+				<li>(116, 98, 77)</li>		<!--brown 3-->
+				<li>(151, 113, 76)</li>		<!--brown 4-->
+				<li>(164, 105, 79)</li>		<!--pinto-->
+				<li>(76, 76, 76)</li>		<!--black tobiano-->
+				<li>(86, 67, 58)</li>		<!--appaloosa-->
+			</alternateGraphicColors>
+		</li>
+	</value>
+</Operation>
+
+
+</Patch>

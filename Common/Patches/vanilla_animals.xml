@@ -311,6 +311,7 @@
 <Operation Class="PatchOperationFindMod">
 	<mods>
 		<li>[ATW] Ridiculous Horse Variety</li>
+		<li>Horse Breeds - Skin Variations</li>
 	</mods>
 	<nomatch Class="PatchOperationAdd">
 		<xpath>Defs/ThingDef[defName="Horse"]/comps</xpath>

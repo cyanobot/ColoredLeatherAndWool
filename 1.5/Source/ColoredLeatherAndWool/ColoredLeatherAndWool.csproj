@@ -68,6 +68,8 @@
     <Compile Include="Patch_ButcherProducts_Thing.cs" />
     <Compile Include="Patch_GatherableBodyResource.cs" />
     <Compile Include="Patch_MakeRecipeProducts.cs" />
+    <Compile Include="Patch_MedievalOverhaul_Hides.cs" />
+    <Compile Include="Patch_SYRProcessor_TakeOutProduct.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Settings.cs" />
   </ItemGroup>

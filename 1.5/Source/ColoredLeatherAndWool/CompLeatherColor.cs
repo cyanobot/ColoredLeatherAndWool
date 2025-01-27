@@ -20,12 +20,13 @@ namespace ColoredLeatherAndWool
         public Color ColorMale => Props.colorMale;
         //public VariantType VariantType => Props.variantType;
         public List<Color> AlternateGraphicColors => Props.alternateGraphicColors;
+        public Dictionary<PawnKindDef, Color> ColorByPawnKind => Props.colorByPawnKind;
 
         public Color GetColor()
         {
             //Log.Message("GetColor, VariantType: " + VariantType);
 
-            if (Main.AALoaded && parent.def.defName == "AA_ChameleonYak")
+            if (Main.alphaAnimalsLoaded && parent.def.defName == "AA_ChameleonYak")
             {
                 //Log.Message("found chameleonyak");
                 HediffSet hediffs = ((Pawn)parent).health?.hediffSet;
@@ -49,13 +50,22 @@ namespace ColoredLeatherAndWool
 
             Graphic bodyGraphic = Pawn.Drawer.renderer.BodyGraphic;
 
-            int index = -1;
-            if (!AlternateGraphicColors.NullOrEmpty())
+            Color xmlColor = Color.white;
+            if (!ColorByPawnKind.NullOrEmpty())
             {
-                index = Props.IndexFromTexPath(bodyGraphic.path);
+                PawnKindDef pawnKindDef = Pawn.kindDef;
+                if (ColorByPawnKind.ContainsKey(pawnKindDef)) xmlColor = ColorByPawnKind[pawnKindDef];
+            }
+            if (xmlColor == Color.white)
+            { 
+                int index = -1;
+                if (!AlternateGraphicColors.NullOrEmpty())
+                {
+                    index = Props.IndexFromTexPath(bodyGraphic.path);
+                }
+                xmlColor = Props.ColorFromIndex(index);
             }
 
-            Color xmlColor = Props.ColorFromIndex(index);
             Color graphicColor = bodyGraphic.Color;
             //Log.Message("xmlColor: " + xmlColor
             //    + ", graphicColor: " + graphicColor
@@ -74,6 +84,7 @@ namespace ColoredLeatherAndWool
         //public VariantType variantType = VariantType.None;
         public List<Color> alternateGraphicColors = new List<Color>();
         public List<int> indicesUsingDrawColor;
+        public Dictionary<PawnKindDef, Color> colorByPawnKind;
 
         public ThingDef pawnDef;
         public PawnKindDef PawnKindDef => pawnDef.race.AnyPawnKind;
