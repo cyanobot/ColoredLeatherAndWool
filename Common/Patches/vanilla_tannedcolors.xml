@@ -171,8 +171,8 @@
 	<xpath>Defs/ThingDef[defName="Leather_Human"]/comps</xpath>
 	<value>
 		<li Class="ColoredLeatherAndWool.CompProperties_TanningColor">
-			<baseColor>(211,194,143)</baseColor>
-			<weight>0.4</weight>
+			<baseColor>(124,114,83)</baseColor>
+			<weight>0.3</weight>
 		</li>
 	</value>
 </Operation>

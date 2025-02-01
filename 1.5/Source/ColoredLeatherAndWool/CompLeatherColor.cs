@@ -107,7 +107,7 @@ namespace ColoredLeatherAndWool
 
         public int IndexFromTexPath(string path)
         {
-            int index = AlternateGraphics.FindIndex(ag => texPath.GetValue(ag) == path);
+            int index = AlternateGraphics.FindIndex(ag => (string)texPath.GetValue(ag) == path);
             //Log.Message("IndexFromTexPath, path: " + path + ", index: " + index);
             //Log.Message(AlternateGraphics.Select(ag => texPath.GetValue(ag)).ToStringSafeEnumerable());
 

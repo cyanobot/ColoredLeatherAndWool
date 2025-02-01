@@ -44,7 +44,7 @@ namespace ColoredLeatherAndWool
 
         public static bool UseTannedColor()
         {
-            return tannedColors && !cyanobotsLeatherLoaded;
+            return tannedColors && !anyTanningLoaded;
         }
 
         public static bool UseTannedColor(Thing thing, out CompTanningColor compTanningColor)
