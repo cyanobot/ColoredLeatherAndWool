@@ -115,7 +115,7 @@
 	<value>
 		<li Class="ColoredLeatherAndWool.CompProperties_TanningColor">
 			<baseColor>(204,180,150)</baseColor>
-			<weight>0.7</weight>
+			<weight>0.5</weight>
 		</li>
 	</value>
 </Operation>

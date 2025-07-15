@@ -8,7 +8,8 @@ using UnityEngine;
 using Verse;
 using RimWorld;
 using HarmonyLib;
-
+using static ColoredLeatherAndWool.ColorUtility;
+using System.IO;
 
 namespace ColoredLeatherAndWool
 {
@@ -22,56 +23,70 @@ namespace ColoredLeatherAndWool
         public List<Color> AlternateGraphicColors => Props.alternateGraphicColors;
         public Dictionary<PawnKindDef, Color> ColorByPawnKind => Props.colorByPawnKind;
 
-        public Color GetColor()
+        public Color GetFinalColor()
         {
-            //Log.Message("GetColor, VariantType: " + VariantType);
+            Color xmlColor = GetColorFromXML();
 
-            if (Main.alphaAnimalsLoaded && parent.def.defName == "AA_ChameleonYak")
+            if (!Props.ignoreGraphicColor)
             {
-                //Log.Message("found chameleonyak");
-                HediffSet hediffs = ((Pawn)parent).health?.hediffSet;
-                if (hediffs == null) ;
-                else if (hediffs.HasHediff(DefDatabase<HediffDef>.GetNamed("AA_WinterPelt")))
+                Graphic pawnGraphic = GetPawnGraphic(Pawn);
+                if (pawnGraphic != null)
                 {
-                    return new Color(0.984f, 0.988f, 0.992f);
+                    return Multiply(xmlColor, pawnGraphic.Color);
                 }
-                else if (hediffs.HasHediff(DefDatabase<HediffDef>.GetNamed("AA_JunglePelt")))
-                {
-                    return new Color(0.25f, 0.281f, 0.152f);
-                }
-                else if (hediffs.HasHediff(DefDatabase<HediffDef>.GetNamed("AA_DesertPelt")))
-                {
-                    return new Color(0.719f, 0.656f, 0.429f);
-                }
-                else return new Color(0.257f, 0.184f, 0.16f);
             }
 
+            return xmlColor;
+        }
+    
+        public Color GetColorFromXML()
+        {
+            //if ColorMale is specified and the pawn is male
+            //use the specified color
             if (ColorMale != Color.white && Pawn.gender == Gender.Male) return ColorMale;
 
-            Graphic bodyGraphic = Pawn.Drawer.renderer.BodyGraphic;
-
-            Color xmlColor = Color.white;
+            //if ColorByPawnKind is specified
+            //try to get the color for the relevant pawnKind
             if (!ColorByPawnKind.NullOrEmpty())
             {
                 PawnKindDef pawnKindDef = Pawn.kindDef;
-                if (ColorByPawnKind.ContainsKey(pawnKindDef)) xmlColor = ColorByPawnKind[pawnKindDef];
-            }
-            if (xmlColor == Color.white)
-            { 
-                int index = -1;
-                if (!AlternateGraphicColors.NullOrEmpty())
-                {
-                    index = Props.IndexFromTexPath(bodyGraphic.path);
-                }
-                xmlColor = Props.ColorFromIndex(index);
+                if (ColorByPawnKind.ContainsKey(pawnKindDef)) return ColorByPawnKind[pawnKindDef];
             }
 
-            Color graphicColor = bodyGraphic.Color;
-            //Log.Message("xmlColor: " + xmlColor
-            //    + ", graphicColor: " + graphicColor
-            //    + ", multiplied: " + ColorUtility.Multiply(xmlColor, graphicColor));
+            //if AlternateGraphicColors is specified
+            //try to figure out which graphic we're using and look up the color for it
+            if (!AlternateGraphicColors.NullOrEmpty())
+            {
+                return GetAlternateGraphicColor();
+            }
 
-            return ColorUtility.Multiply(xmlColor, graphicColor);
+            return ColorBase;
+        }
+
+        public Color GetAlternateGraphicColor()
+        {
+
+            Graphic pawnGraphic = GetPawnGraphic(Pawn);
+            LogUtil.DebugLog($"GetAlternateGraphicColor: pawn: {Pawn}, graphic: {pawnGraphic}" +
+                $", texPath: {pawnGraphic.path}, kindDef: {Pawn.kindDef}" +
+                $", alternateGraphics: ({Pawn.kindDef?.alternateGraphics?.Count})"
+                );
+            if (pawnGraphic == null) return ColorBase;
+
+            string texPath = pawnGraphic.path;
+            if (texPath.NullOrEmpty()) return ColorBase;
+
+            List<AlternateGraphic> altGraphics = Pawn.kindDef.alternateGraphics;
+            if (altGraphics.NullOrEmpty()) return ColorBase;
+
+            int index = altGraphics.FindIndex(ag => ag.graphicData?.texPath == texPath);
+            LogUtil.DebugLog($"index from texPath: {index}" +
+                $", index from pawn: {PawnGraphicUtils.GetGraphicIndex(Pawn)}"
+                );
+            if (index < 0 || index >= AlternateGraphicColors.Count) 
+                    return ColorBase;
+
+            return AlternateGraphicColors[index];
         }
     }
 
@@ -81,14 +96,10 @@ namespace ColoredLeatherAndWool
 
         public Color color = Color.white;
         public Color colorMale = Color.white;
-        //public VariantType variantType = VariantType.None;
         public List<Color> alternateGraphicColors = new List<Color>();
         public List<int> indicesUsingDrawColor;
         public Dictionary<PawnKindDef, Color> colorByPawnKind;
-
-        public ThingDef pawnDef;
-        public PawnKindDef PawnKindDef => pawnDef.race.AnyPawnKind;
-        public List<AlternateGraphic> AlternateGraphics => PawnKindDef.alternateGraphics;
+        public bool ignoreGraphicColor;
 
         public CompProperties_LeatherColor()
         {
@@ -100,34 +111,5 @@ namespace ColoredLeatherAndWool
             this.compClass = compClass;
         }
 
-        public override void PostLoadSpecial(ThingDef parent)
-        {
-            pawnDef = parent;
-        }
-
-        public int IndexFromTexPath(string path)
-        {
-            int index = AlternateGraphics.FindIndex(ag => (string)texPath.GetValue(ag) == path);
-            //Log.Message("IndexFromTexPath, path: " + path + ", index: " + index);
-            //Log.Message(AlternateGraphics.Select(ag => texPath.GetValue(ag)).ToStringSafeEnumerable());
-
-            if (index < 0 || index >= alternateGraphicColors.Count)
-            {
-                return -1;
-            }
-            else
-            {
-                return index;
-            }
-        }
-
-        public Color ColorFromIndex(int index)
-        {
-            if (index < 0 || index >= alternateGraphicColors.Count)
-            {
-                return color;
-            }
-            else return alternateGraphicColors[index];
-        }
     }
 }

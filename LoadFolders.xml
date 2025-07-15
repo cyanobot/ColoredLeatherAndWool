@@ -50,7 +50,7 @@
     <li IfModActive="pausbrak.redwolves">Mods/RedWolves</li>
     <li IfModActive="Abrolo.SwampMonsters">Mods/SwampMonsters</li>
     <li IfModActive="Mlie.TropickappRainforestMod">Mods/Tropickapp</li>
-    <li IfModActive="VanillaExpanded.VanillaAnimalsExpanded">Mods/VanillaAnimalsExpanded</li>
+    <li IfModActive="VanillaExpanded.VanillaAnimalsExpanded">Mods/VanillaAnimalsExpanded/1.5</li>
     <li IfModActive="VanillaExpanded.VAEWaste">Mods/VanillaAnimalsExpandedWaste</li>
     <li IfModActive="VanillaExpanded.VAERoy">Mods/VanillaAnimalsExpandedRoyal</li>
     <li IfModActive="VanillaExpanded.VAEEndAndExt">Mods/VanillaAnimalsExpandedEndangered</li>
@@ -110,7 +110,7 @@
     <li IfModActive="pausbrak.redwolves">Mods/RedWolves</li>
     <li IfModActive="Abrolo.SwampMonsters">Mods/SwampMonsters</li>
     <li IfModActive="Mlie.TropickappRainforestMod">Mods/Tropickapp</li>
-    <li IfModActive="VanillaExpanded.VanillaAnimalsExpanded">Mods/VanillaAnimalsExpanded</li>
+    <li IfModActive="VanillaExpanded.VanillaAnimalsExpanded">Mods/VanillaAnimalsExpanded/1.5</li>
     <li IfModActive="VanillaExpanded.VAEWaste">Mods/VanillaAnimalsExpandedWaste</li>
     <li IfModActive="VanillaExpanded.VAERoy">Mods/VanillaAnimalsExpandedRoyal</li>
     <li IfModActive="VanillaExpanded.VAEEndAndExt">Mods/VanillaAnimalsExpandedEndangered</li>
@@ -132,6 +132,7 @@
 	<!--more animals-->
     <li IfModActive="Ludeon.RimWorld.Anomaly">Mods/Anomaly</li>
     <li IfModActive="Ludeon.RimWorld.Biotech">Mods/Biotech</li>
+    <li IfModActive="Ludeon.RimWorld.Odyssey">Mods/Odyssey</li>
     <li IfModActive="sarg.alphaanimals">Mods/AlphaAnimals</li>
     <li IfModActive="sarg.magicalmenagerie">Mods/AlphaMythology</li>
     <li IfModActive="SirMashedPotato.Ashlands">Mods/Ashlands</li>
@@ -170,7 +171,7 @@
     <li IfModActive="pausbrak.redwolves">Mods/RedWolves</li>
     <li IfModActive="Abrolo.SwampMonsters">Mods/SwampMonsters</li>
     <li IfModActive="Mlie.TropickappRainforestMod">Mods/Tropickapp</li>
-    <li IfModActive="VanillaExpanded.VanillaAnimalsExpanded">Mods/VanillaAnimalsExpanded</li>
+    <li IfModActive="VanillaExpanded.VanillaAnimalsExpanded">Mods/VanillaAnimalsExpanded/1.6</li>
     <li IfModActive="VanillaExpanded.VAEWaste">Mods/VanillaAnimalsExpandedWaste</li>
     <li IfModActive="VanillaExpanded.VAERoy">Mods/VanillaAnimalsExpandedRoyal</li>
     <li IfModActive="VanillaExpanded.VAEEndAndExt">Mods/VanillaAnimalsExpandedEndangered</li>
